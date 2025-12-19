@@ -73,11 +73,11 @@ Example configs/zeldawiki.yaml:
     behavior:
       section_name: PH
 
-### mappings/<wiki>/<game>.json
+### `mappings/<wiki>/<game>.json`
 
 Mappings define the exact rows on-wiki the bot is allowed to update.
 Each entry describes:
-- the target <section begin="..."/> block
+- the target `<section begin="..."/>` block
 - the exact category wikitext (first template parameter)
 - speedrun.com category + variable IDs to query
 
