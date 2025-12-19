@@ -14,11 +14,12 @@ This repo is designed to be reusable across different communities/wikis:
 
 ## Repository structure
 
-speedrun-wiki-sync/
-├── configs/                 # wiki-specific config (YAML)
-├── mappings/                # per-wiki mappings (JSON)
-├── scripts/                 # runnable entrypoints (optional)
-└── src/srwikisync/          # library code
+    speedrun-wiki-sync/
+    ├── configs/
+    ├── mappings/
+    ├── scripts/
+    └── src/
+        └── srwikisync/
 
 ## Requirements
 
@@ -102,8 +103,8 @@ The bot will **abort** and print scaffold rows if the expected rows are missing.
 
 ## Safety model
 
-- Updates only inside a named <section begin="X"/> ... <section end="X"/>
-- Updates only rows matching the exact {{Speedrun Record|<category_wikitext>|...}}
+- Updates only inside a named `<section begin="X"/> ... <section end="X"/>`
+- Updates only rows matching the exact `{{Speedrun Record|<category>|<player>|<time>|<date>}}`
 - Does **not** auto-add new categories/rows
 - Writes at most **one edit per run**
 - Skips save when no changes
