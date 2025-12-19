@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Packaging/build
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Logs / runtime
+logs/
+*.log
+
+# Local secrets / local configs (keep repo clean)
+user-config.py
+user-password.cfg

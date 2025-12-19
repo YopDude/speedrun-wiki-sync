@@ -1,0 +1,58 @@
+[
+  {
+    "section": "PH",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "tlozph",
+      "category_id": "jdrqr95k",
+      "variables": { "ylq3wgz8": "12v5or4q" }
+    }
+  },
+  {
+    "section": "PH",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo DS|DS]]/Emu)}}",
+    "sr": {
+      "game": "tlozph",
+      "category_id": "jdrqr95k",
+      "variables": { "ylq3wgz8": "1py74v81" }
+    }
+  },
+
+  {
+    "section": "PH",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "tlozph",
+      "category_id": "5dwy8qlk",
+      "variables": { "ylq3wgz8": "12v5or4q" }
+    }
+  },
+  {
+    "section": "PH",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo DS|DS]]/Emu)}}",
+    "sr": {
+      "game": "tlozph",
+      "category_id": "5dwy8qlk",
+      "variables": { "ylq3wgz8": "1py74v81" }
+    }
+  },
+
+  {
+    "section": "PH",
+    "wiki_category_wikitext": "[[Ghost Ship]] RTA {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "tlozph",
+      "category_id": "824mwym2",
+      "variables": { "ylq3wgz8": "12v5or4q" }
+    }
+  },
+  {
+    "section": "PH",
+    "wiki_category_wikitext": "[[Ghost Ship]] RTA {{Small|([[Nintendo DS|DS]]/Emu)}}",
+    "sr": {
+      "game": "tlozph",
+      "category_id": "824mwym2",
+      "variables": { "ylq3wgz8": "1py74v81" }
+    }
+  }
+]
