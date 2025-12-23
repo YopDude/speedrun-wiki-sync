@@ -10,7 +10,7 @@ This repo is designed to be reusable across different communities/wikis:
 
 ## Current status (Zelda Wiki)
 ✅ Phantom Hourglass pipeline working end-to-end in dry-run  
-⚠️ Writing is currently blocked by a site CAPTCHA (ConfirmEdit) for bot/API edits.
+⚠️ Writing code for other games...
 
 ## Repository structure
 
