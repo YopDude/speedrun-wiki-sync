@@ -15,7 +15,7 @@ Key rules:
 - ALSO: never re-match inside substitutions inserted during this run (prevents nesting)
 
 Optional per-game exceptions:
-- mappings/zeldawiki/curation/<game>.json
+- mappings/zeldawiki/curation/<mapping>.json
   - deny substrings: "contains": [...]
   - scoped allow overrides: "contains_exceptions": [...]
     * allow phrases override ONLY the deny terms they contain.
@@ -126,8 +126,8 @@ def load_wikiterms(section_id: str | None) -> list[tuple[str, str]]:
     return terms
 
 
-def load_exceptions_for_game(game: str) -> tuple[list[str], list[str]]:
-    path = repo_root() / "mappings" / "zeldawiki" / "curation" / f"{game}.json"
+def load_exceptions_for_mapping(mapping: str) -> tuple[list[str], list[str]]:
+    path = repo_root() / "mappings" / "zeldawiki" / "curation" / f"{mapping}.json"
     if not path.exists():
         return ([], [])
 
@@ -397,7 +397,6 @@ def main() -> None:
     excludes = split_excludes(args.exclude)
 
     if args.all:
-        from pathlib import Path
         import glob
 
         out_dir = Path(args.out_dir)
@@ -442,7 +441,7 @@ def main() -> None:
             # Section-scoped wikiterms
             terms = load_wikiterms(section)
 
-            deny, allow = load_exceptions_for_game(game)
+            deny, allow = load_exceptions_for_mapping(stem)
 
             entries = generate_per_game_entries(
                 section=section,
@@ -472,7 +471,7 @@ def main() -> None:
     # Section-scoped wikiterms
     terms = load_wikiterms(args.section)
 
-    deny, allow = load_exceptions_for_game(args.game)
+    deny, allow = load_exceptions_for_mapping(Path(args.out).stem)
     entries = generate_per_game_entries(
         section=args.section,
         game_slug=args.game,
