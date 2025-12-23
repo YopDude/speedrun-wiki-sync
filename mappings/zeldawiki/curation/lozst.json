@@ -1,0 +1,4 @@
+{
+  "contains": ["Emulator"],
+  "contains_exceptions": ["[[Nintendo DS|DS]]/[[Emulator]]"]
+}

@@ -59,14 +59,20 @@ def api_get_json(api_base: str, path: str, user_agent: str, params: dict | None 
         raise last_exc
     raise RuntimeError(f"Failed to GET {url} after retries")
 
-def get_leaderboard_top1(api_base: str, user_agent: str, game: str, category_id: str, variables: dict) -> dict | None:
+def get_leaderboard_top1(api_base: str, user_agent: str, game: str, category_id: str, variables: dict, level_id: str | None = None) -> dict | None:
     params = {"top": 1}
     for var_id, value_id in (variables or {}).items():
         params[f"var-{var_id}"] = value_id
 
-    data = api_get_json(api_base, f"/leaderboards/{game}/category/{category_id}", user_agent, params=params)
+    if level_id:
+        path = f"/leaderboards/{game}/level/{level_id}/{category_id}"
+    else:
+        path = f"/leaderboards/{game}/category/{category_id}"
+
+    data = api_get_json(api_base, path, user_agent, params=params)
     runs = data["data"].get("runs", [])
     if not runs:
         return None
     return runs[0]["run"]
+
 

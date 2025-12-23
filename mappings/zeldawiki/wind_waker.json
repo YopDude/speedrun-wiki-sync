@@ -1,0 +1,340 @@
+[
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[100% Completion|100%]] All Menus + [[Figurines_in_The_Wind_Waker|Figurines]]",
+    "sr": {
+      "game": "tww",
+      "category_id": "jdz5l16d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100% All Menus + Figurines",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "zdno0n2q",
+      "variables": {
+        "ql69j97l": "qvvw3r5q"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo Switch 2|Switch 2]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "zdno0n2q",
+      "variables": {
+        "ql69j97l": "le2gd4pl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "wdmx86ok",
+      "variables": {
+        "kn0eqez8": "qoxwd3gq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[Nintendo Switch 2|Switch 2]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "wdmx86ok",
+      "variables": {
+        "kn0eqez8": "139e3mk1"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Any%]] No [[Superswim|Manual Superswimming]] {{Small|([[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "wkp3gew2",
+      "variables": {
+        "6njpgpvn": "lmojz4y1"
+      },
+      "kind": "full-game",
+      "category_name": "Any% No MSS",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Any%]] No [[Superswim|Manual Superswimming]] {{Small|([[Nintendo Switch 2|Switch 2]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "wkp3gew2",
+      "variables": {
+        "6njpgpvn": "1w4w3d9q"
+      },
+      "kind": "full-game",
+      "category_name": "Any% No MSS",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo GameCube|GameCube]] / No [[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "9d8x94w2",
+      "variables": {
+        "yn26z6gl": "qj7yj40q",
+        "yn26dogl": "qoxow8pq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo GameCube|GameCube]] / [[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "9d8x94w2",
+      "variables": {
+        "yn26z6gl": "qj7yj40q",
+        "yn26dogl": "1397eod1"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo Switch 2|Switch 2]] / No [[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "9d8x94w2",
+      "variables": {
+        "yn26z6gl": "q65k3xnl",
+        "yn26dogl": "qoxow8pq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo Switch 2|Switch 2]] / [[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "9d8x94w2",
+      "variables": {
+        "yn26z6gl": "q65k3xnl",
+        "yn26dogl": "1397eod1"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Din's Pearl]]",
+    "sr": {
+      "game": "tww",
+      "category_id": "xd18l428",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Din's Pearl",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Din's Pearl|Pearls]]/[[Sword]]s/[[Triforce]] {{Small|([[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "z275r4k0",
+      "variables": {
+        "onvy3y7n": "q5vek5rl"
+      },
+      "kind": "full-game",
+      "category_name": "PST",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Din's Pearl|Pearls]]/[[Sword]]s/[[Triforce]] {{Small|([[Nintendo Switch 2|Switch 2]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "z275r4k0",
+      "variables": {
+        "onvy3y7n": "lx5w38j1"
+      },
+      "kind": "full-game",
+      "category_name": "PST",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]] / [[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "q255gj2o",
+      "variables": {
+        "2lg19j3l": "lr3ej8ml",
+        "ylpk5k68": "14oe3vwq"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]] / [[Nintendo Switch 2|Switch 2]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "q255gj2o",
+      "variables": {
+        "2lg19j3l": "lr3ej8ml",
+        "ylpk5k68": "192g78jq"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]] / [[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "q255gj2o",
+      "variables": {
+        "2lg19j3l": "qznrvo8q",
+        "ylpk5k68": "14oe3vwq"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]] / [[Nintendo Switch 2|Switch 2]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "q255gj2o",
+      "variables": {
+        "2lg19j3l": "qznrvo8q",
+        "ylpk5k68": "192g78jq"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Low%]] {{Small|(7 Item)}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "jdrwvnk6",
+      "variables": {
+        "5lyxjqgn": "q75kkvy1"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Low%]] {{Small|(7 Items)}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "jdrwvnk6",
+      "variables": {
+        "5lyxjqgn": "qke77gyq"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Low%]] {{Small|(8 Items)}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "jdrwvnk6",
+      "variables": {
+        "5lyxjqgn": "10vmzr2l"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Low%]] {{Small|(9 Items)}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "jdrwvnk6",
+      "variables": {
+        "5lyxjqgn": "5lm58jyq"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[Din's Pearl|Pearls]]/[[Sword]]s/[[Triforce]])}}",
+    "sr": {
+      "game": "tww",
+      "category_id": "jdrwvnk6",
+      "variables": {
+        "5lyxjqgn": "81wyew9q"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWW",
+    "wiki_category_wikitext": "[[Master Sword]]",
+    "sr": {
+      "game": "tww",
+      "category_id": "9d8p777k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Master Sword",
+      "misc": false
+    }
+  }
+]

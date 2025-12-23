@@ -1,0 +1,78 @@
+[
+  {
+    "section": "SSHD",
+    "wiki_category_wikitext": "All [[Sacred Flame]]s",
+    "sr": {
+      "game": "sshd",
+      "category_id": "7kjny54d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Sacred Flames",
+      "misc": false
+    }
+  },
+  {
+    "section": "SSHD",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(New Game)}}",
+    "sr": {
+      "game": "sshd",
+      "category_id": "q25j0wvd",
+      "variables": {
+        "ylq6yo38": "21g58mml"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "SSHD",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[New Game Plus]])}}",
+    "sr": {
+      "game": "sshd",
+      "category_id": "q25j0wvd",
+      "variables": {
+        "ylq6yo38": "jqz9pjm1"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "SSHD",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "sshd",
+      "category_id": "zdnzmp9d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "SSHD",
+    "wiki_category_wikitext": "[[Glitchless]]",
+    "sr": {
+      "game": "sshd",
+      "category_id": "zd39jwed",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "SSHD",
+    "wiki_category_wikitext": "[[Goddess's Harp|Harp]]",
+    "sr": {
+      "game": "sshd",
+      "category_id": "02q4qwyd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Harp",
+      "misc": false
+    }
+  }
+]

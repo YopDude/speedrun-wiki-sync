@@ -1,0 +1,26 @@
+[
+  {
+    "section": "RTBToL",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "tingle2",
+      "category_id": "q257vpvd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "RTBToL",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "tingle2",
+      "category_id": "7dg5pxg2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

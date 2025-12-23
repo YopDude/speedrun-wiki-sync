@@ -1,0 +1,50 @@
+[
+  {
+    "section": "MNPTP",
+    "wiki_category_wikitext": "All [[Picross]] Levels",
+    "sr": {
+      "game": "loztppic",
+      "category_id": "z2734n4d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Picross Levels",
+      "misc": false
+    }
+  },
+  {
+    "section": "MNPTP",
+    "wiki_category_wikitext": "How to Play Levels",
+    "sr": {
+      "game": "loztppic",
+      "category_id": "9kvj86jk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "How to Play Levels",
+      "misc": false
+    }
+  },
+  {
+    "section": "MNPTP",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "loztppic",
+      "category_id": "xk9jeqvd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MNPTP",
+    "wiki_category_wikitext": "[[Picross|Micross]]",
+    "sr": {
+      "game": "loztppic",
+      "category_id": "q258eyj2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Micross",
+      "misc": false
+    }
+  }
+]

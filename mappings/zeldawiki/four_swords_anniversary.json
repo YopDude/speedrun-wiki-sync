@@ -1,0 +1,86 @@
+[
+  {
+    "section": "FSAE",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "the_legend_of_zelda_four_swords",
+      "category_id": "jdz050g2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "FSAE",
+    "wiki_category_wikitext": "[[Any%]] [[DSi]] Solo",
+    "sr": {
+      "game": "the_legend_of_zelda_four_swords",
+      "category_id": "jdrp0pl2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% DSi Solo",
+      "misc": false
+    }
+  },
+  {
+    "section": "FSAE",
+    "wiki_category_wikitext": "[[Any%]] [[DSi]] [[Co-op (Cooperative)|Co-op]]",
+    "sr": {
+      "game": "the_legend_of_zelda_four_swords",
+      "category_id": "jdz5456d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% DSi Co-op",
+      "misc": false
+    }
+  },
+  {
+    "section": "FSAE",
+    "wiki_category_wikitext": "[[Game Over]]",
+    "sr": {
+      "game": "the_legend_of_zelda_four_swords",
+      "category_id": "02qe8yj2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "GameOver",
+      "misc": false
+    }
+  },
+  {
+    "section": "FSAE",
+    "wiki_category_wikitext": "[[Realm of Memories]] Door #1",
+    "sr": {
+      "game": "the_legend_of_zelda_four_swords",
+      "category_id": "jdznz9gd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Realm Of Memories Door #1",
+      "misc": false
+    }
+  },
+  {
+    "section": "FSAE",
+    "wiki_category_wikitext": "[[Realm of Memories]] Door #2",
+    "sr": {
+      "game": "the_legend_of_zelda_four_swords",
+      "category_id": "rklnyrq2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Realm Of Memories Door #2",
+      "misc": false
+    }
+  },
+  {
+    "section": "FSAE",
+    "wiki_category_wikitext": "[[Realm of Memories]] Door #3",
+    "sr": {
+      "game": "the_legend_of_zelda_four_swords",
+      "category_id": "ndxnq41k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Realm Of Memories Door #3",
+      "misc": false
+    }
+  }
+]

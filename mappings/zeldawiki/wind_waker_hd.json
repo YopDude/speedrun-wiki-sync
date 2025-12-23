@@ -1,0 +1,198 @@
+[
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "All [[Boss]]es & [[Triforce]] {{Small|(No [[Superswim|Manual Superswimming]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "ndxr75od",
+      "variables": {
+        "6nj5mmvl": "5q8ndogq"
+      },
+      "kind": "full-game",
+      "category_name": "ABT",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "All [[Boss]]es & [[Triforce]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "ndxr75od",
+      "variables": {
+        "6nj5mmvl": "21dp3w41"
+      },
+      "kind": "full-game",
+      "category_name": "ABT",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "No [[Barrier Skip]] {{Small|(No [[Superswim|Manual Superswimming]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "7dgme1pd",
+      "variables": {
+        "dlormy5l": "4lxk2231"
+      },
+      "kind": "full-game",
+      "category_name": "No Barrier Skip",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "No [[Barrier Skip]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "7dgme1pd",
+      "variables": {
+        "dlormy5l": "0q5mww7l"
+      },
+      "kind": "full-game",
+      "category_name": "No Barrier Skip",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "Post [[Hookshot|Grapple]] {{Small|([[Any%]] No [[Superswim|Manual Superswimming]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "7kjnj9xd",
+      "variables": {
+        "ylpkqqk8": "1927m2kq"
+      },
+      "kind": "full-game",
+      "category_name": "Post Grapple",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "Post [[Hookshot|Grapple]] {{Small|([[Any%]] Unrestricted)}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "7kjnj9xd",
+      "variables": {
+        "ylpkqqk8": "14o3yojq"
+      },
+      "kind": "full-game",
+      "category_name": "Post Grapple",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[Superswim|Manual Superswimming]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "824v7325",
+      "variables": {
+        "onvjoe7n": "p12dd8kq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "824v7325",
+      "variables": {
+        "onvjoe7n": "z19mmwkl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(No [[Superswim|Manual Superswimming]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "wdm46z4d",
+      "variables": {
+        "ql676x78": "814yynj1"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "wdm46z4d",
+      "variables": {
+        "ql676x78": "4lxppjrq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(No [[Superswim|Manual Superswimming]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "jdzmjxkv",
+      "variables": {
+        "6nj463vn": "rqvppnwq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "jdzmjxkv",
+      "variables": {
+        "6nj463vn": "01388y3q"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "zd3jmrv2",
+      "variables": {
+        "wle96we8": "5lme378q"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWWHD",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "twwhd",
+      "category_id": "zd3jmrv2",
+      "variables": {
+        "wle96we8": "jq6wo8vl"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "section": "ZA",
+    "wiki_category_wikitext": "All [[Ancient Shrine|Shrine]]s",
+    "sr": {
+      "game": "zeldas_adventure",
+      "category_id": "n2ynry7k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Shrines",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZA",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "zeldas_adventure",
+      "category_id": "824mmmw2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZA",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "zeldas_adventure",
+      "category_id": "vdovv12p",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZA",
+    "wiki_category_wikitext": "[[Any%]] 2P1C",
+    "sr": {
+      "game": "zeldas_adventure",
+      "category_id": "02q87ry2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% 2P1C",
+      "misc": false
+    }
+  }
+]

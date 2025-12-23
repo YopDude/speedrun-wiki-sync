@@ -1,0 +1,62 @@
+[
+  {
+    "section": "Linked Oracles",
+    "wiki_category_wikitext": "All [[Essence of Time|Essences of Time]] and [[Essence of Nature|Essences of Nature]]",
+    "sr": {
+      "game": "oracle",
+      "category_id": "q25o5mwk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Essences",
+      "misc": false
+    }
+  },
+  {
+    "section": "Linked Oracles",
+    "wiki_category_wikitext": "No [[RCE|Remote Code Execution]]",
+    "sr": {
+      "game": "oracle",
+      "category_id": "wdm1qx4d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "No RCE",
+      "misc": false
+    }
+  },
+  {
+    "section": "Linked Oracles",
+    "wiki_category_wikitext": "No [[Rooster Adventure (RA)|Rooster Adventure]]/[[Arbitrary Code Execution (ACE)|Arbitrary Code Execution]]",
+    "sr": {
+      "game": "oracle",
+      "category_id": "w205w1od",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "No RA/ACE",
+      "misc": false
+    }
+  },
+  {
+    "section": "Linked Oracles",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "oracle",
+      "category_id": "xd1rl9zk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "Linked Oracles",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "oracle",
+      "category_id": "9d8px1wk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

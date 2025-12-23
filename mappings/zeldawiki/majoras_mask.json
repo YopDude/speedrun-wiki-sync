@@ -1,0 +1,138 @@
+[
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "All [[Great Fairy|Fairy]] Rewards",
+    "sr": {
+      "game": "mm",
+      "category_id": "zdn0mqq2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Fairy Rewards",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "All [[Mask]]s {{Small|(No [[Major Glitches (MG)|Major Glitches]])}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "z27mx502",
+      "variables": {
+        "5lype02l": "21gror8q"
+      },
+      "kind": "full-game",
+      "category_name": "All Masks",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "All [[Mask]]s {{Small|([[Glitchless]])}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "z27mx502",
+      "variables": {
+        "5lype02l": "4lxnrvj1"
+      },
+      "kind": "full-game",
+      "category_name": "All Masks",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[Major Glitches (MG)|Major Glitches]])}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "02q4vx7d",
+      "variables": {
+        "r8r1ez5n": "xqkk6kkq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Glitchless]])}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "02q4vx7d",
+      "variables": {
+        "r8r1ez5n": "xqk3rw91"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Restricted Major Glitches (RMG)|Restricted Major Glitches]])}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "02q4vx7d",
+      "variables": {
+        "r8r1ez5n": "81pz7kel"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] Restricted",
+    "sr": {
+      "game": "mm",
+      "category_id": "w20gvv8k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Dungeons Restricted",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(No [[Major Glitches (MG)|Major Glitches]])}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "jdzlw4r2",
+      "variables": {
+        "r8r7yrwn": "klrdzk0q"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "jdzlw4r2",
+      "variables": {
+        "r8r7yrwn": "21dn483l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Glitchless]])}}",
+    "sr": {
+      "game": "mm",
+      "category_id": "jdzlw4r2",
+      "variables": {
+        "r8r7yrwn": "5q83evr1"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

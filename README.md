@@ -1,124 +1,325 @@
 # speedrun-wiki-sync
 
-Sync speedrun.com world record times into MediaWiki pages (via Pywikibot) using a config-driven mapping.
+A small, config‑driven tool that keeps **speedrun.com world record data** in sync with **MediaWiki pages**.
 
-This repo is designed to be reusable across different communities/wikis:
-- You define **what rows exist** on the wiki (mapping JSON).
-- The bot **updates only those rows** (no auto-creation of new categories/rows).
-- Dry-run mode prints a unified diff.
-- Write mode performs a single atomic edit.
+In plain terms:
 
-## Current status (Zelda Wiki)
-✅ Phantom Hourglass pipeline working end-to-end in dry-run  
-⚠️ Writing is currently blocked by a site CAPTCHA (ConfirmEdit) for bot/API edits.
+* You tell it *which wiki pages exist*
+* You tell it *which speedrun.com categories belong in which rows*
+* The tool fetches the latest records and updates only those rows
 
-## Repository structure
+It **does not guess**, **does not create new rows**, and **does not restructure pages**. Everything the bot touches is explicitly defined by you.
 
-    speedrun-wiki-sync/
-    ├── configs/
-    ├── mappings/
-    ├── scripts/
-    └── src/
-        └── srwikisync/
+---
 
-## Requirements
+## Project status
 
-- Python 3.10+
-- A working Pywikibot setup (family file + bot login)
-- Network access to speedrun.com and your wiki
+✅ **Functionality is essentially finished**
 
-Dependencies (installed via pip):
-- pywikibot
-- requests
-- PyYAML
+The main workflow works end‑to‑end:
 
-## Setup
+1. Fetch runs from speedrun.com
+2. Match them against your mappings
+3. Generate updated wikitext
+4. Show you what would change, or apply it
 
-### 1) Create venv and install deps
+⚠️ **Remaining edge cases**
 
-From repo root:
+* **Ocarina of Time** and **Triforce Heroes** still need special handling
+* For these games, the speedrun.com API data does not line up perfectly with what the website displays
+* This is a data‑mismatch issue, not a limitation of the tool’s design
 
-    python3 -m venv .venv
-    source .venv/bin/activate
-    python -m pip install --upgrade pip setuptools wheel
-    python -m pip install -e .
+---
 
-> If you are not using editable installs yet, you can also run with:
-> `PYTHONPATH=src python -m srwikisync.cli ...`
+## What this tool actually does
 
-### 2) Point to your Pywikibot config directory
+At a high level, the tool:
 
-This project expects Pywikibot to read your existing `user-config.py` / cookies via `PYWIKIBOT_DIR`.
+* Pulls verified world‑record runs from the speedrun.com API
+* Normalizes category names, variables, and labels
+* Matches runs to *pre‑defined wiki rows*
+* Regenerates the affected wiki text
+* Either:
 
-Example:
+  * shows you a diff (preview), or
+  * writes the changes to the wiki
 
-    export PYWIKIBOT_DIR="/home/mint/pwb"
+Important boundaries:
 
-## Configuration
+* If a run is **not mapped**, it is ignored
+* If a wiki row is **not declared**, it is never touched
+* The bot never invents new structure
 
-### configs/<wiki>.yaml
+This makes it safe to run repeatedly.
 
-Example configs/zeldawiki.yaml:
+---
 
-    wiki:
-      family: zw
-      lang: en
-      page_title: Speedrun_Records
-      pywikibot_dir: /home/mint/pwb
+## Project Pipeline
 
-    speedrun:
-      api_base: https://www.speedrun.com/api/v1
-      user_agent: "SpeedrunWikiSync/0.1 (zeldawiki; maintainer: BotDude)"
+1. **Mappings** describe *what belongs where*
+2. **Wiki terms** help translate naming differences
+3. The **API layer** fetches and cleans run data
+4. The **renderer** updates only mapped rows
+5. The **CLI** decides whether to preview, save, or export
 
-    behavior:
-      section_name: PH
+---
 
-### `mappings/<wiki>/<game>.json`
+## Folder and file structure
 
-Mappings define the exact rows on-wiki the bot is allowed to update.
-Each entry describes:
-- the target `<section begin="..."/>` block
-- the exact category wikitext (first template parameter)
-- speedrun.com category + variable IDs to query
+Here is how the repository is organised and how each part is used:
 
-The bot will **abort** and print scaffold rows if the expected rows are missing.
+### `mapping/`
 
-## Usage
+* Each `.json` file usually represents **one game**
+* Each file lists:
 
-### Dry-run (prints diff, makes no edits)
+  * which wiki page(s) are involved
+  * which rows already exist on that page
+  * which speedrun.com categories feed those rows
 
-    export PYWIKIBOT_DIR="/home/mint/pwb"
-    PYTHONPATH=src python -m srwikisync.cli \
-      --config configs/zeldawiki.yaml \
-      --mapping mappings/zeldawiki/phantom_hourglass.json \
-      --dry-run
+Only data described here will ever be used.
 
-### Write mode (performs one atomic edit)
+---
 
-    export PYWIKIBOT_DIR="/home/mint/pwb"
-    PYTHONPATH=src python -m srwikisync.cli \
-      --config configs/zeldawiki.yaml \
-      --mapping mappings/zeldawiki/phantom_hourglass.json \
-      --write
+### `wikiterms/`
 
-## Safety model
+Speedrun.com names and wiki names often do not match exactly.
 
-- Updates only inside a named `<section begin="X"/> ... <section end="X"/>`
-- Updates only rows matching the exact `{{Speedrun Record|<category>|<player>|<time>|<date>}}`
-- Does **not** auto-add new categories/rows
-- Writes at most **one edit per run**
-- Skips save when no changes
+This folder contains dictionaries that say:
 
-## CAPTCHA / ConfirmEdit note (important)
+> “When the API says *this*, the wiki means *that*.”
 
-Some wikis enforce a CAPTCHA for API-based edits (ConfirmEdit). If enabled, Pywikibot saves will fail with a CAPTCHA error.
+They are used during matching so mappings stay readable and stable.
 
-Recommended fix:
-- Ask an admin to exempt the bot account (or the bot group) from CAPTCHA / ConfirmEdit for edits.
+Examples of what goes here:
 
-This is an admin-side configuration; the bot does not attempt to solve CAPTCHAs.
+* Category name variants
+* Variable label differences
+* Region / platform wording differences
+
+---
+
+### `wikiterms/curations/`
+
+This folder is for **exceptions**.
+
+Use curations when:
+
+* One game breaks otherwise global rules
+* A category is intentionally named differently on the wiki
+* The API is inconsistent for a specific title
+
+Curations override normal wiki terms and only apply where needed.
+
+---
+
+### Other folders
+
+* `api/` – talks to speedrun.com and normalizes run data
+* `wiki/` – builds new wiki text and generates diffs
+* `sync.py` – main entry point and command‑line handling
+
+---
+
+## Running the tool
+
+This project is typically used in two phases:
+
+1. **Generate or update mapping files** (one-time or occasional)
+2. **Run the sync tool** to preview or apply updates
+
+---
+
+### Generating mappings (helper script)
+
+This step helps you *create* mapping files by inspecting speedrun.com categories and laying out a starting structure.
+
+```bash
+python scripts/gen_mapping.py \
+  --section "Linked Oracles" \
+  --game "oracle" \
+  --out ./mappings/zeldawiki/oracle_linked.json \
+  --all-categories
+```
+
+What this does:
+
+* `--section "Linked Oracles"`
+  The name of the section as it already exists on the wiki page.
+
+* `--game "oracle"`
+  The speedrun.com game slug to pull categories from.
+
+* `--out ./mappings/zeldawiki/oracle_linked.json`
+  Where the generated mapping file will be written.
+
+* `--all-categories`
+  Includes all categories found for the game, giving you a complete starting point to edit and refine.
+
+The output file is **not meant to be final**. You are expected to edit it by hand to match real wiki rows.
+
+---
+
+## Previewing changes (recommended)
+
+```bash
+PYTHONPATH=src python -m srwikisync.cli \
+  --config configs/zeldawiki.yaml \
+  --mapping ./mappings/zeldawiki/ocarina_3d.json \
+  --dry-run
+```
+
+This is the safest mode and the default.
+
+What each argument means:
+
+* `--config configs/zeldawiki.yaml`
+  Points to your main configuration file. This usually contains:
+
+  * wiki connection details
+  * bot username
+  * site-specific settings
+
+* `--mapping ./mappings/zeldawiki/ocarina_3d.json`
+  Tells the tool exactly which mapping file to use. Only the pages and rows defined in this file will be touched.
+
+* `--dry-run`
+  Runs the full pipeline but **does not save anything**.
+
+What happens when you run this:
+
+* Runs are fetched from speedrun.com
+* Wiki terms and curations are applied
+* Rows defined in the mapping are updated
+* A readable diff is printed showing what *would* change
+
+No wiki edits are made.
+
+Use this as often as you want.
+
+---
+
+## Writing changes to the wiki
+
+```bash
+PYTHONPATH=src python -m srwikisync.cli \
+  --config configs/zeldawiki.yaml \
+  --mapping ./mappings/zeldawiki/minish_cap.json \
+  --write
+```
+
+This command uses the same inputs as a dry run, but actually applies the changes.
+
+Arguments explained:
+
+* `--config configs/zeldawiki.yaml`
+  Same config file as before. Nothing about your setup changes between dry-run and write.
+
+* `--mapping ./mappings/zeldawiki/minish_cap.json`
+  The specific game / page mapping to apply.
+
+* `--write`
+  Enables saving the updated wiki text.
+
+What happens when you run this:
+
+* All changes are prepared in memory first
+* The page is saved once with the full update
+* No partial or incremental edits are made
+
+If saving fails, it is usually due to wiki-side restrictions (see CAPTCHA note below).
+
+---
+
+## Exporting wiki text to a file
+
+```bash
+PYTHONPATH=src python -m srwikisync.cli \
+  --config configs/zeldawiki.yaml \
+  --mapping ./mappings/zeldawiki/skyward_sword.json \
+  --emit output.txt
+```
+
+This mode generates wiki text without touching the wiki.
+
+Arguments explained:
+
+* `--emit output.txt`
+  Writes the generated wiki text to the given file path.
+
+What happens when you run this:
+
+* Runs are fetched and mapped as usual
+* Updated wiki text is rendered
+* The result is written to `output.txt`
+
+Useful for:
+
+* Reviewing output
+* Manual posting
+* Debugging mappings
+
+---
+
+## Running everything at once (`--all`)
+
+```bash
+PYTHONPATH=src python -m srwikisync.cli \
+  --config configs/zeldawiki.yaml \
+  --all \
+  --dry-run
+```
+
+The `--all` flag tells the tool to ignore `--mapping` and instead:
+
+* Find **every `.json` file** in the mappings folder
+* Run each mapping one after another
+
+Arguments explained:
+
+* `--all`
+  Enables batch mode across all mapping files.
+
+* `--dry-run` / `--write` / `--emit`
+  Apply the chosen action to **every mapping**.
+
+Examples:
+
+```bash
+--all --write
+```
+
+Applies changes for all games to the wiki.
+
+```bash
+--all --emit out/
+```
+
+Writes one output file per mapping into the `out/` directory.
+
+This is most useful when maintaining many games or doing routine updates.
+
+---
+
+## CAPTCHA / ConfirmEdit warning
+
+Some wikis block automated edits using CAPTCHA (ConfirmEdit).
+
+If this is enabled:
+
+* `--write` will fail
+* `--dry-run` and `--emit` still work
+
+The fix is wiki‑side:
+
+* Ask an admin to exempt the bot account from ConfirmEdit
+
+The tool does not attempt to bypass CAPTCHA.
+
+---
 
 ## License
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
 
-You are free to use, modify, and share this project for non-commercial purposes only.
+Creative Commons Attribution–NonCommercial 4.0 International (CC BY‑NC 4.0)
+
+Free for non‑commercial use, modification, and sharing.

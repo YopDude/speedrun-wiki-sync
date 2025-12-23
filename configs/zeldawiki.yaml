@@ -1,13 +1,10 @@
 wiki:
   family: zw
   lang: en
-  page_title: Speedrun_Records
+  page_title: User:YopDude/Sandbox/Speedrun_Records
   pywikibot_dir: /home/mint/pwb
   wikiterms_file: configs/zeldawiki_wikiterms.json
 
 speedrun:
   api_base: https://www.speedrun.com/api/v1
-  user_agent: "SpeedrunWikiSync/0.1 (zeldawiki; maintainer: BotDude)"
-
-behavior:
-  section_name: PH
+  user_agent: "SpeedrunWikiSync/0.1 (zeldawiki; maintainer: YopDude)"

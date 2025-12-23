@@ -1,0 +1,74 @@
+[
+  {
+    "section": "MM3D",
+    "wiki_category_wikitext": "All [[Great Fairy|Fairy]] Rewards",
+    "sr": {
+      "game": "mm3d",
+      "category_id": "w20n8w8d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Fairy Rewards",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM3D",
+    "wiki_category_wikitext": "All [[Mask]]s",
+    "sr": {
+      "game": "mm3d",
+      "category_id": "w20px0jk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Masks",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM3D",
+    "wiki_category_wikitext": "No [[Wrong Warp]]",
+    "sr": {
+      "game": "mm3d",
+      "category_id": "jdz365r2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "No Wrong Warp",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM3D",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "mm3d",
+      "category_id": "ndxj5yo2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM3D",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "mm3d",
+      "category_id": "rklx3w6k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "MM3D",
+    "wiki_category_wikitext": "[[Glitchless]]",
+    "sr": {
+      "game": "mm3d",
+      "category_id": "z27g4742",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  }
+]

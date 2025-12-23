@@ -1,0 +1,304 @@
+[
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "All [[Cow]]s",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "02qz1ly2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Cows",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "Child [[Dungeon]]s {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "8249jed5",
+      "variables": {
+        "wlexogr8": "21donyjq"
+      },
+      "kind": "full-game",
+      "category_name": "Child Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "Child [[Dungeon]]s {{Small|([[Glitchless]] Unrestricted)}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "8249jed5",
+      "variables": {
+        "wlexogr8": "4qy8my71"
+      },
+      "kind": "full-game",
+      "category_name": "Child Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "Child [[Dungeon]]s {{Small|([[Glitchless]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "8249jed5",
+      "variables": {
+        "wlexogr8": "5q8r30k1"
+      },
+      "kind": "full-game",
+      "category_name": "Child Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "Child [[Dungeon]]s {{Small|(as Adult)}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "8249jed5",
+      "variables": {
+        "wlexogr8": "gq7z8wv1"
+      },
+      "kind": "full-game",
+      "category_name": "Child Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "Defeat [[Ganon]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "wk64zxd1",
+      "variables": {
+        "rn1zddol": "xqk38x91"
+      },
+      "kind": "full-game",
+      "category_name": "Defeat Ganon",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "Defeat [[Ganon]] {{Small|([[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "wk64zxd1",
+      "variables": {
+        "rn1zddol": "gq7og6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Defeat Ganon",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "zdn74xkq",
+      "variables": {
+        "38dpp148": "013dd4yl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "zdn74xkq",
+      "variables": {
+        "38dpp148": "zqokk24l"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "jdzo862v",
+      "variables": {
+        "p85rrjvn": "rqvggzyq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "jdzo862v",
+      "variables": {
+        "p85rrjvn": "5le99d6q"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "mke9plxd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Dungeon Dice Monsters (DDM)|Dungeon Dice Monsters]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "jdr8xlk6",
+      "variables": {
+        "r8r77p5n": "z1966741"
+      },
+      "kind": "full-game",
+      "category_name": "DDM",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Dungeon Dice Monsters (DDM)|Dungeon Dice Monsters]] {{Small|([[SRM]])}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "jdr8xlk6",
+      "variables": {
+        "r8r77p5n": "p12rr32l"
+      },
+      "kind": "full-game",
+      "category_name": "DDM",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[GSR|Ganondorf Source Requirement]]",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "q259qgko",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "GSR",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]] / Restricted)}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "wkpmxzgk",
+      "variables": {
+        "jlz51j7l": "81pd6j81",
+        "5ly1d02l": "0q56nm71"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]] / Unrestricted)}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "wkpmxzgk",
+      "variables": {
+        "jlz51j7l": "81pd6j81",
+        "5ly1d02l": "814jy6e1"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]] / Restricted)}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "wkpmxzgk",
+      "variables": {
+        "jlz51j7l": "z198d38q",
+        "5ly1d02l": "0q56nm71"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]] / Unrestricted)}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "wkpmxzgk",
+      "variables": {
+        "jlz51j7l": "z198d38q",
+        "5ly1d02l": "814jy6e1"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[All Dungeons (AD)|All Dungeons]] (17 items))}}",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "zd3q88vk",
+      "variables": {
+        "ylp6godn": "gq733gnl"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[MST|Medallions/Stones/Trials]]",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "02qg3n9d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "MST",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoTMQ",
+    "wiki_category_wikitext": "[[Reverse Dungeon Order (RDO)|Reverse Dungeon Order]]",
+    "sr": {
+      "game": "ootmq",
+      "category_id": "vdo8vw9k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "RDO",
+      "misc": false
+    }
+  }
+]

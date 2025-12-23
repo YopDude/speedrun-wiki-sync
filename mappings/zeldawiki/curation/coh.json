@@ -1,0 +1,5 @@
+{
+  "contains": ["1.0.1","1.0.2","1.0.3", "1.0.2-1.0.3", "Fixed", "Double", "Blindfolded", "All Floors", "DLC", "No MoT", "Mystery", "Permadeath"],
+  "contains_exceptions": ["Mystery Mode Off", "Permadeath Off",
+  "All Barriers & Castles {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Double / Permadeath Off / Mystery Mode Off)}}"]
+}

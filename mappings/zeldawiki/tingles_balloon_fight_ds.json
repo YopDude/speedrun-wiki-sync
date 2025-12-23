@@ -1,0 +1,26 @@
+[
+  {
+    "section": "TBFDS",
+    "wiki_category_wikitext": "[[1 Player Game]]",
+    "sr": {
+      "game": "tingles_balloon_fight_ds",
+      "category_id": "9kv8338d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "1 Player Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "TBFDS",
+    "wiki_category_wikitext": "[[Balloon Trip]]",
+    "sr": {
+      "game": "tingles_balloon_fight_ds",
+      "category_id": "rkl5mmn2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Balloon Trip",
+      "misc": false
+    }
+  }
+]

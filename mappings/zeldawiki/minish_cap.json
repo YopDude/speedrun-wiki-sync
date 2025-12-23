@@ -1,0 +1,38 @@
+[
+  {
+    "section": "TMC",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "tmc",
+      "category_id": "vdopxo2p",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TMC",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "tmc",
+      "category_id": "wdmmv4dq",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TMC",
+    "wiki_category_wikitext": "[[Glitchless]]",
+    "sr": {
+      "game": "tmc",
+      "category_id": "7dg1m4d4",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  }
+]

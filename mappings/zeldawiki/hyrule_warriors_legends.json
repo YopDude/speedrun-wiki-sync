@@ -1,0 +1,152 @@
+[
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "All Base Levels",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "vdo46wo2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Base Levels",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "All Levels",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "rklgw98d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Levels",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|(Standard)}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "xqkerj4q"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Grand Travels Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "jq65zmol"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Great Sea Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "21gnj8ol"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Koholint Island Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "21dk26jl"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Lorule Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "klrxx4wl"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Master Quest Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "gq75njr1"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Master Wind Waker Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "21dk4zgl"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Termina Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "klr3zpwl"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWL",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Twilight Map]])}}",
+    "sr": {
+      "game": "hwlegends",
+      "category_id": "jdz59l3d",
+      "variables": {
+        "38d92xl0": "jqzn6pkq"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  }
+]

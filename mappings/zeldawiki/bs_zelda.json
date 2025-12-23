@@ -1,0 +1,58 @@
+[
+  {
+    "section": "BSTLoZ",
+    "wiki_category_wikitext": "Fourth Quest (Map 2) {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "bs_legend_of_zelda",
+      "category_id": "n2y3yned",
+      "variables": {
+        "38do71xl": "8107jmwl"
+      },
+      "kind": "full-game",
+      "category_name": "Fourth Quest (Map 2)",
+      "misc": false
+    }
+  },
+  {
+    "section": "BSTLoZ",
+    "wiki_category_wikitext": "Fourth Quest (Map 2) {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "bs_legend_of_zelda",
+      "category_id": "n2y3yned",
+      "variables": {
+        "38do71xl": "mln3m00q"
+      },
+      "kind": "full-game",
+      "category_name": "Fourth Quest (Map 2)",
+      "misc": false
+    }
+  },
+  {
+    "section": "BSTLoZ",
+    "wiki_category_wikitext": "Third Quest (Map 1) {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "bs_legend_of_zelda",
+      "category_id": "5dw8wngd",
+      "variables": {
+        "38do71xl": "8107jmwl"
+      },
+      "kind": "full-game",
+      "category_name": "Third Quest (Map 1)",
+      "misc": false
+    }
+  },
+  {
+    "section": "BSTLoZ",
+    "wiki_category_wikitext": "Third Quest (Map 1) {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "bs_legend_of_zelda",
+      "category_id": "5dw8wngd",
+      "variables": {
+        "38do71xl": "mln3m00q"
+      },
+      "kind": "full-game",
+      "category_name": "Third Quest (Map 1)",
+      "misc": false
+    }
+  }
+]

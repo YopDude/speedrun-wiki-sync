@@ -1,0 +1,86 @@
+[
+  {
+    "section": "TWoG",
+    "wiki_category_wikitext": "All Cutscenes {{Small|(Original Hardware)}}",
+    "sr": {
+      "game": "wandofgamelon",
+      "category_id": "wkpmy38k",
+      "variables": {
+        "onv245rl": "xqk4dzyl"
+      },
+      "kind": "full-game",
+      "category_name": "All Cutscenes",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWoG",
+    "wiki_category_wikitext": "All Cutscenes {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "wandofgamelon",
+      "category_id": "wkpmy38k",
+      "variables": {
+        "onv245rl": "21g47xm1"
+      },
+      "kind": "full-game",
+      "category_name": "All Cutscenes",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWoG",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(Original Hardware)}}",
+    "sr": {
+      "game": "wandofgamelon",
+      "category_id": "ndxje7j2",
+      "variables": {
+        "onv245rl": "xqk4dzyl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWoG",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "wandofgamelon",
+      "category_id": "ndxje7j2",
+      "variables": {
+        "onv245rl": "21g47xm1"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWoG",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Original Hardware)}}",
+    "sr": {
+      "game": "wandofgamelon",
+      "category_id": "rklx9vwk",
+      "variables": {
+        "onv245rl": "xqk4dzyl"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TWoG",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "wandofgamelon",
+      "category_id": "rklx9vwk",
+      "variables": {
+        "onv245rl": "21g47xm1"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

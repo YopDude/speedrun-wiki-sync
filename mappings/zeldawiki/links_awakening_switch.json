@@ -1,0 +1,94 @@
+[
+  {
+    "section": "LANS",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Glitches]])}}",
+    "sr": {
+      "game": "las",
+      "category_id": "824gp7w2",
+      "variables": {
+        "wleypyxn": "qznv234q"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LANS",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Glitchless]])}}",
+    "sr": {
+      "game": "las",
+      "category_id": "824gp7w2",
+      "variables": {
+        "wleypyxn": "lr3jk20l"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LANS",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] Restricted",
+    "sr": {
+      "game": "las",
+      "category_id": "w209z652",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Dungeons Restricted",
+      "misc": false
+    }
+  },
+  {
+    "section": "LANS",
+    "wiki_category_wikitext": "[[Any%]] (No [[Hinox Warp (HW)|Hinox Warp]]/ED6)",
+    "sr": {
+      "game": "las",
+      "category_id": "824g81w2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% (No HW/ED6)",
+      "misc": false
+    }
+  },
+  {
+    "section": "LANS",
+    "wiki_category_wikitext": "[[Any%]] ([[Glitchless]])",
+    "sr": {
+      "game": "las",
+      "category_id": "7kj3pm42",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% (Glitchless)",
+      "misc": false
+    }
+  },
+  {
+    "section": "LANS",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Normal Mode)}}",
+    "sr": {
+      "game": "las",
+      "category_id": "5dw40n5k",
+      "variables": {
+        "j846x3jl": "xqkmyy9l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LANS",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Hero Mode]])}}",
+    "sr": {
+      "game": "las",
+      "category_id": "5dw40n5k",
+      "variables": {
+        "j846x3jl": "gq7rmmnl"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

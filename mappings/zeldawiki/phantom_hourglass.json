@@ -1,58 +1,86 @@
 [
   {
     "section": "PH",
-    "wiki_category_wikitext": "[[Any%]] {{Small|([[Wii U]] VC)}}",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo DS|DS]]/[[Emulator]])}}",
     "sr": {
       "game": "tlozph",
-      "category_id": "jdrqr95k",
-      "variables": { "ylq3wgz8": "12v5or4q" }
+      "category_id": "5dwy8qlk",
+      "variables": {
+        "ylq3wgz8": "1py74v81"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
     }
   },
-  {
-    "section": "PH",
-    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo DS|DS]]/Emu)}}",
-    "sr": {
-      "game": "tlozph",
-      "category_id": "jdrqr95k",
-      "variables": { "ylq3wgz8": "1py74v81" }
-    }
-  },
-
   {
     "section": "PH",
     "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Wii U]] VC)}}",
     "sr": {
       "game": "tlozph",
       "category_id": "5dwy8qlk",
-      "variables": { "ylq3wgz8": "12v5or4q" }
+      "variables": {
+        "ylq3wgz8": "12v5or4q"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
     }
   },
   {
     "section": "PH",
-    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo DS|DS]]/Emu)}}",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo DS|DS]]/[[Emulator]])}}",
     "sr": {
       "game": "tlozph",
-      "category_id": "5dwy8qlk",
-      "variables": { "ylq3wgz8": "1py74v81" }
+      "category_id": "jdrqr95k",
+      "variables": {
+        "ylq3wgz8": "1py74v81"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
     }
   },
-
   {
     "section": "PH",
-    "wiki_category_wikitext": "[[Ghost Ship]] RTA {{Small|([[Wii U]] VC)}}",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "tlozph",
+      "category_id": "jdrqr95k",
+      "variables": {
+        "ylq3wgz8": "12v5or4q"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "PH",
+    "wiki_category_wikitext": "[[Ghost Ship]] [[Real Time Attack (RTA)|RTA]] {{Small|([[Nintendo DS|DS]]/[[Emulator]])}}",
     "sr": {
       "game": "tlozph",
       "category_id": "824mwym2",
-      "variables": { "ylq3wgz8": "12v5or4q" }
+      "variables": {
+        "ylq3wgz8": "1py74v81"
+      },
+      "kind": "full-game",
+      "category_name": "Ghost Ship RTA",
+      "misc": false
     }
   },
   {
     "section": "PH",
-    "wiki_category_wikitext": "[[Ghost Ship]] RTA {{Small|([[Nintendo DS|DS]]/Emu)}}",
+    "wiki_category_wikitext": "[[Ghost Ship]] [[Real Time Attack (RTA)|RTA]] {{Small|([[Wii U]] VC)}}",
     "sr": {
       "game": "tlozph",
       "category_id": "824mwym2",
-      "variables": { "ylq3wgz8": "1py74v81" }
+      "variables": {
+        "ylq3wgz8": "12v5or4q"
+      },
+      "kind": "full-game",
+      "category_name": "Ghost Ship RTA",
+      "misc": false
     }
   }
 ]

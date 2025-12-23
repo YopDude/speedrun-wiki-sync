@@ -1,0 +1,258 @@
+[
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[100% Completion|100%]] No [[Up+A]] {{Small|([[First Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "wkpo9g2r",
+      "variables": {
+        "gnxwmd48": "xqkyow4l"
+      },
+      "kind": "full-game",
+      "category_name": "100% No Up+A",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[100% Completion|100%]] No [[Up+A]] {{Small|([[Second Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "wkpo9g2r",
+      "variables": {
+        "gnxwmd48": "gq7m23rq"
+      },
+      "kind": "full-game",
+      "category_name": "100% No Up+A",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[First Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "vdoozydp",
+      "variables": {
+        "gnxwmd48": "xqkyow4l"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Second Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "vdoozydp",
+      "variables": {
+        "gnxwmd48": "gq7m23rq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Any%]] No [[Up+A]] {{Small|([[First Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "wdmw952q",
+      "variables": {
+        "gnxwmd48": "xqkyow4l"
+      },
+      "kind": "full-game",
+      "category_name": "Any% No Up+A",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Any%]] No [[Up+A]] {{Small|([[Second Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "wdmw952q",
+      "variables": {
+        "gnxwmd48": "gq7m23rq"
+      },
+      "kind": "full-game",
+      "category_name": "Any% No Up+A",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[First Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "w20w88dn",
+      "variables": {
+        "gnxwmd48": "xqkyow4l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Second Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "w20w88dn",
+      "variables": {
+        "gnxwmd48": "gq7m23rq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Arbitrary Code Execution (ACE)|Arbitary Code Execution]] {{Small|([[First Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "mkeoge8d",
+      "variables": {
+        "gnxwmd48": "xqkyow4l"
+      },
+      "kind": "full-game",
+      "category_name": "ACE",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Arbitrary Code Execution (ACE)|Arbitary Code Execution]] {{Small|([[Second Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "mkeoge8d",
+      "variables": {
+        "gnxwmd48": "gq7m23rq"
+      },
+      "kind": "full-game",
+      "category_name": "ACE",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Extreme Rules]] {{Small|([[First Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "7dgrx7k4",
+      "variables": {
+        "gnxwmd48": "xqkyow4l"
+      },
+      "kind": "full-game",
+      "category_name": "Extreme Rules",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Extreme Rules]] {{Small|([[Second Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "7dgrx7k4",
+      "variables": {
+        "gnxwmd48": "gq7m23rq"
+      },
+      "kind": "full-game",
+      "category_name": "Extreme Rules",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[First Quest]] / Current)}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "xd1r4vrk",
+      "variables": {
+        "gnxwmd48": "xqkyow4l",
+        "onvyk9mn": "q65rjejl"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[First Quest]] / Legacy)}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "xd1r4vrk",
+      "variables": {
+        "gnxwmd48": "xqkyow4l",
+        "onvyk9mn": "qj7n583q"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[Second Quest]] / Current)}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "xd1r4vrk",
+      "variables": {
+        "gnxwmd48": "gq7m23rq",
+        "onvyk9mn": "q65rjejl"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[Second Quest]] / Legacy)}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "xd1r4vrk",
+      "variables": {
+        "gnxwmd48": "gq7m23rq",
+        "onvyk9mn": "qj7n583q"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Sword]]less {{Small|([[First Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "mke069d6",
+      "variables": {
+        "gnxwmd48": "xqkyow4l"
+      },
+      "kind": "full-game",
+      "category_name": "Swordless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TLoZ",
+    "wiki_category_wikitext": "[[Sword]]less {{Small|([[Second Quest]])}}",
+    "sr": {
+      "game": "the_legend_of_zelda",
+      "category_id": "mke069d6",
+      "variables": {
+        "gnxwmd48": "gq7m23rq"
+      },
+      "kind": "full-game",
+      "category_name": "Swordless",
+      "misc": false
+    }
+  }
+]

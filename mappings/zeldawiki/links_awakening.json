@@ -1,0 +1,66 @@
+[
+  {
+    "section": "LA",
+    "wiki_category_wikitext": "All [[Instrument of the Sirens|Instruments]]",
+    "sr": {
+      "game": "la",
+      "category_id": "xd1wqr28",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Instruments",
+      "misc": false
+    }
+  },
+  {
+    "section": "LA",
+    "wiki_category_wikitext": "No [[Wrong Warp]]",
+    "sr": {
+      "game": "la",
+      "category_id": "02qeey2y",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Warpless",
+      "misc": false
+    }
+  },
+  {
+    "section": "LA",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "la",
+      "category_id": "9d85n7dn",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LA",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(No [[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "la",
+      "category_id": "824qqwk5",
+      "variables": {
+        "68kmmy3l": "814kgxel"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LA",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "la",
+      "category_id": "824qqwk5",
+      "variables": {
+        "68kmmy3l": "4lx0ox3l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

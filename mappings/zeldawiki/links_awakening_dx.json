@@ -1,0 +1,172 @@
+[
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "All [[Instrument of the Sirens|Instruments]]",
+    "sr": {
+      "game": "ladx",
+      "category_id": "jdzrrg2v",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Instruments",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No Restrictions)}}",
+    "sr": {
+      "game": "ladx",
+      "category_id": "q2555v2o",
+      "variables": {
+        "6njvpo5n": "4lxxrjgl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[Wrong Warp]])}}",
+    "sr": {
+      "game": "ladx",
+      "category_id": "q2555v2o",
+      "variables": {
+        "6njvpo5n": "lr30j0wl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[Wrong Warp]]/[[Out-of-Bounds (OoB)|Out-of-Bounds]])}}",
+    "sr": {
+      "game": "ladx",
+      "category_id": "q2555v2o",
+      "variables": {
+        "6njvpo5n": "0q5oy0v1"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Any%]] (No ST/[[Wrong Warp]])",
+    "sr": {
+      "game": "ladx",
+      "category_id": "q257n5wd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% (No ST/WW)",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Any%]] (No [[Save_and_Quit_(S%26Q)|Save & Quit]]/[[Wrong Warp]]/[[Out-of-Bounds (OoB)|Out-of-Bounds]])",
+    "sr": {
+      "game": "ladx",
+      "category_id": "z2755zk0",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% (No S+Q/WW/OoB)",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Any%]] (No [[Wrong Warp]])",
+    "sr": {
+      "game": "ladx",
+      "category_id": "5dw5w45d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% (No WW)",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Any%]] (No [[Wrong Warp]]/[[Out-of-Bounds (OoB)|Out-of-Bounds]])",
+    "sr": {
+      "game": "ladx",
+      "category_id": "jdrww5k6",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% (No WW/OoB)",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(No [[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "ladx",
+      "category_id": "zdnoo92q",
+      "variables": {
+        "789kkk6l": "4lx0we2l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Arbitrary Code Execution (ACE)|Arbitary Code Execution]])}}",
+    "sr": {
+      "game": "ladx",
+      "category_id": "zdnoo92q",
+      "variables": {
+        "789kkk6l": "z195g80q"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "ladx",
+      "category_id": "zd3jo782",
+      "variables": {
+        "yn202p0l": "qzn5v5kq"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "ladx",
+      "category_id": "zd3jo782",
+      "variables": {
+        "yn202p0l": "1gn4e4ol"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "LADX",
+    "wiki_category_wikitext": "[[Reverse Dungeon Order (RDO)|Reverse Dungeon Order]]",
+    "sr": {
+      "game": "ladx",
+      "category_id": "wdmqple2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Reverse Dungeon Order",
+      "misc": false
+    }
+  }
+]

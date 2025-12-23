@@ -1,0 +1,26 @@
+[
+  {
+    "section": "OoA",
+    "wiki_category_wikitext": "All [[Essence of Time|Essences]]",
+    "sr": {
+      "game": "ooa",
+      "category_id": "zdnxvz72",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Essences",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoA",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "ooa",
+      "category_id": "mkew7xk6",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

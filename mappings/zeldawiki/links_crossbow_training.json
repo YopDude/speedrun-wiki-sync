@@ -1,0 +1,206 @@
+[
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|(Console / [[Bronze Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "gq7p0ddq",
+        "ylq97kw8": "5lmnvyyq"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|(Console / [[Gold Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "gq7p0ddq",
+        "ylq97kw8": "21grrxxq"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|(Console / [[Platinum Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "gq7p0ddq",
+        "ylq97kw8": "jq67nmn1"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|(Console / [[Silver Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "gq7p0ddq",
+        "ylq97kw8": "jqz7704l"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|([[Emulator]] / [[Bronze Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "xqk520kq",
+        "ylq97kw8": "5lmnvyyq"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|([[Emulator]] / [[Gold Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "xqk520kq",
+        "ylq97kw8": "21grrxxq"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|([[Emulator]] / [[Platinum Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "xqk520kq",
+        "ylq97kw8": "jq67nmn1"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Medal]]s {{Small|([[Emulator]] / [[Silver Medal]]s)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "5dw8lwed",
+      "variables": {
+        "gnxj9qgl": "xqk520kq",
+        "ylq97kw8": "jqz7704l"
+      },
+      "kind": "full-game",
+      "category_name": "All Medals",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Triforce]]s {{Small|(Console)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "xd1v447d",
+      "variables": {
+        "gnxj9qgl": "gq7p0ddq"
+      },
+      "kind": "full-game",
+      "category_name": "All Triforces",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "All [[Triforce]]s {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "xd1v447d",
+      "variables": {
+        "gnxj9qgl": "xqk520kq"
+      },
+      "kind": "full-game",
+      "category_name": "All Triforces",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(Console)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "9d83ee62",
+      "variables": {
+        "gnxj9qgl": "gq7p0ddq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "9d83ee62",
+      "variables": {
+        "gnxj9qgl": "xqk520kq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Console)}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "z27147z2",
+      "variables": {
+        "gnxj9qgl": "gq7p0ddq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "LCT",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "lct",
+      "category_id": "z27147z2",
+      "variables": {
+        "gnxj9qgl": "xqk520kq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

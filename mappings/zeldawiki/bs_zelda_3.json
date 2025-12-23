@@ -1,0 +1,170 @@
+[
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "All [[Stone_Tablet|Tablet]]s No [[Major Glitches (MG)|Major Glitches]] {{Small|(All Weeks)}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "02qgmj7d",
+      "variables": {
+        "kn0v6xdl": "21gkd7ml"
+      },
+      "kind": "full-game",
+      "category_name": "All Tablets No Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "All [[Stone_Tablet|Tablet]]s No [[Major Glitches (MG)|Major Glitches]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "02qgmj7d",
+      "variables": {
+        "kn0v6xdl": "jqzoedm1"
+      },
+      "kind": "full-game",
+      "category_name": "All Tablets No Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "All [[Stone_Tablet|Tablet]]s No [[Major Glitches (MG)|Major Glitches]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "02qgmj7d",
+      "variables": {
+        "kn0v6xdl": "8102jp5q"
+      },
+      "kind": "full-game",
+      "category_name": "All Tablets No Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "No [[Major Glitches (MG)|Major Glitches]] {{Small|(All Weeks)}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "z277j6o2",
+      "variables": {
+        "kn0v6xdl": "21gkd7ml"
+      },
+      "kind": "full-game",
+      "category_name": "No Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "No [[Major Glitches (MG)|Major Glitches]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "z277j6o2",
+      "variables": {
+        "kn0v6xdl": "jqzoedm1"
+      },
+      "kind": "full-game",
+      "category_name": "No Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "No [[Major Glitches (MG)|Major Glitches]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "z277j6o2",
+      "variables": {
+        "kn0v6xdl": "8102jp5q"
+      },
+      "kind": "full-game",
+      "category_name": "No Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "[[Major Glitches (MG)|Major Glitches]] {{Small|(All Weeks)}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "7kjv6ezk",
+      "variables": {
+        "kn0v6xdl": "21gkd7ml"
+      },
+      "kind": "full-game",
+      "category_name": "Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "[[Major Glitches (MG)|Major Glitches]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "7kjv6ezk",
+      "variables": {
+        "kn0v6xdl": "jqzoedm1"
+      },
+      "kind": "full-game",
+      "category_name": "Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "[[Major Glitches (MG)|Major Glitches]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "7kjv6ezk",
+      "variables": {
+        "kn0v6xdl": "8102jp5q"
+      },
+      "kind": "full-game",
+      "category_name": "Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "[[Master Sword]] {{Small|(All Weeks)}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "jdr0nnld",
+      "variables": {
+        "kn0v6xdl": "21gkd7ml"
+      },
+      "kind": "full-game",
+      "category_name": "Master Sword",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "[[Master Sword]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "jdr0nnld",
+      "variables": {
+        "kn0v6xdl": "jqzoedm1"
+      },
+      "kind": "full-game",
+      "category_name": "Master Sword",
+      "misc": false
+    }
+  },
+  {
+    "section": "AST",
+    "wiki_category_wikitext": "[[Master Sword]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "bszelda3",
+      "category_id": "jdr0nnld",
+      "variables": {
+        "kn0v6xdl": "8102jp5q"
+      },
+      "kind": "full-game",
+      "category_name": "Master Sword",
+      "misc": false
+    }
+  }
+]

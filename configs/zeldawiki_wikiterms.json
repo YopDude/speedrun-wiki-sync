@@ -1,9 +1,252 @@
 {
-  "Any%": "[[Any%]]",
+  "1 Player Game": "[[1 Player Game]]",
+  "1.8.2 Switch 1 Edition": "[[Nintendo Switch|Switch]]",
+  "1.8.2 Switch 2 Edition": "[[Nintendo Switch 2|Switch 2]]",
   "100%": "[[100% Completion|100%]]",
-  "Ghost Ship": "[[Ghost Ship]]",
-  "Wii U": "[[Wii U]]",
-  "Wii U VC": "[[Wii U]] VC",
+  "100 %": "[[100% Completion|100%]]",
+  "2nd Quest": "[[Second Quest]]",
+  "ABT": "All [[Boss]]es & [[Triforce]]",
+  "ACE": "[[Arbitrary Code Execution (ACE)|Arbitrary Code Execution]]",
+  "AD": "[[All Dungeons (AD)|All Dungeons]]",
+  "Adventure Map": "[[Adventure Map]]",
+  "Adventure Mode": "[[Adventure Mode]]",
+  "Agitha": "[[Agitha]]",
+  "All Dungeons": "[[All Dungeons (AD)|All Dungeons]]",
+  "Amiibo": "[[Amiibo]]",
+  "Any%": "[[Any%]]",
+  "Any %": "[[Any%]]",
+  "Balloon Trip": "[[Balloon Trip]]",
+  "Barrier Skip": "[[Barrier Skip]]",
+  "BiT": "[[Back in Time]]",
+  "Boss": "[[Boss]]",
+  "Boss Rush": "[[Boss Rush]]",
+  "Bosses": "[[Boss]]es",
+  "Bronze": "[[Bronze Medal]]s",
+  "CD-i": "[[Philips_CD-i|CD-i]]",
+  "Cane of Byrna": "[[Cane of Byrna]]",
+  "Co-Op": "[[Co-op (Cooperative)|Co-op]]",
+  "Co-op": "[[Co-op (Cooperative)|Co-op]]",
+  "Coop": "[[Co-op (Cooperative)|Co-op]]",
+  "Costume": "[[Costume]]",
+  "Cows": "[[Cow]]s",
+  "DDM": "[[Dungeon Dice Monsters (DDM)|Dungeon Dice Monsters]]",
+  "DLC": "[[DLC]]",
   "DS": "[[Nintendo DS|DS]]",
-  "DS/Emu": "[[Nintendo DS|DS]]/Emu"
+  "DSi": "[[DSi]]",
+  "Deathless": "[[Game Over|Deathless]]",
+  "Den of Trials": "[[Den of Trials]]",
+  "Din's Pearl": "[[Din's Pearl]]",
+  "Divine Beast": "[[Divine Beast]]",
+  "Drablands Challenge": "[[Drablands Challenge]]",
+  "Dungeon": "[[Dungeon]]",
+  "Dungeon Dice Monsters": "[[Dungeon Dice Monsters (DDM)|Dungeon Dice Monsters]]",
+  "Dungeons": "[[Dungeon]]s",
+  "Emu": "[[Emulator]]",
+  "EMU.": "[[Emulator]]",
+  "EMU": "[[Emulator]]",
+  "Emulator": "[[Emulator]]",
+  "Essence of Nature": "[[Essence of Nature]]",
+  "Essence of Time": "[[Essence of Time]]",
+  "Essences": {
+    "default": "Essences",
+    "sections": {
+      "OoS": "[[Essence of Nature|Essences]]",
+      "OoA": "[[Essence of Time|Essences]]",
+      "Linked Oracles": "[[Essence of Time|Essences of Time]] and [[Essence of Nature|Essences of Nature]]"
+    }
+  },
+  "EG": "[[Exploration Glitch]]",
+  "Exploration Glitch": "[[Exploration Glitch]]",
+  "Extreme Rules": "[[Extreme Rules]]",
+  "Fairy": "[[Great Fairy|Fairy]]",
+  "Figurines": {
+    "default": "[[Figurines]]",
+    "sections": {
+      "TWW": "[[Figurines_in_The_Wind_Waker|Figurines]]"
+    }
+  },
+  "Fire Rod": "[[Fire Rod]]",
+  "First Quest": "[[First Quest]]",
+  "Forest Temple": "[[Forest Temple]]",
+  "Fused Shadows": "[[Fused Shadow]]s",
+  "GBA": "[[Game Boy Advance]]",
+  "GSR": "[[GSR|Ganondorf Source Requirement]]",
+  "Game & Watch": "[[Zelda_(Game_%26_Watch)|Game & Watch]]",
+  "GameOver": "[[Game Over]]",
+  "Gamecube": "[[Nintendo GameCube|GameCube]]",
+  "GameCube": "[[Nintendo GameCube|GameCube]]",
+  "Ganon": "[[Ganon]]",
+  "Ganondorf": "[[Ganondorf]]",
+  "Ganondorf Source Requirement": "[[GSR|Ganondorf Source Requirement]]",
+  "Ghost Ship": "[[Ghost Ship]]",
+  "Glitches": "[[Glitches]]",
+  "Glitchless": "[[Glitchless]]",
+  "Gold": "[[Gold Medal]]s",
+  "Goron Mines": "[[Goron Mines]]",
+  "Grand Travels": {
+    "default": "[[Grand Travels]]",
+    "sections": {
+      "HWL": "[[Grand Travels Map]]"
+    }
+  },
+  "Grapple": "[[Hookshot|Grapple]]",
+  "Great Plateau": "[[Great Plateau]]",
+  "Great Sea": {
+    "default": "[[Great Sea]]",
+    "sections": {
+      "HWL": "[[Great Sea Map]]"
+    }
+  },
+  "HW": "[[Hinox Warp (HW)|Hinox Warp]]",
+  "Harp": "[[Goddess's Harp|Harp]]",
+  "Hero": "[[Hero Mode]]",
+  "Hero Mode": "[[Hero Mode]]",
+  "Hinox": "[[Hinox]]",
+  "Instruments": {
+    "default": "[[Instrument]]s",
+    "sections": {
+      "LA": "[[Instrument of the Sirens|Instruments]]",
+      "LADX": "[[Instrument of the Sirens|Instruments]]",
+      "LANS": "[[Instrument of the Sirens|Instruments]]"
+    }
+  },
+  "Kakariko": "[[Kakariko]]",
+  "Koholint": {
+    "default": "[[Koholint Island]]",
+    "sections": {
+      "HWL": "[[Koholint Island Map]]"
+    }
+  },
+  "Legend Mode": "[[Legend Mode]]",
+  "Level 1": "[[Level 1]]",
+  "Level 2": "[[Level 2]]",
+  "Level 3": "[[Level 3]]",
+  "Level 4": "[[Level 4]]",
+  "Level 5": "[[Level 5]]",
+  "Level 6": "[[Level 6]]",
+  "Level 7": "[[Level 7]]",
+  "Level 8": "[[Level 8]]",
+  "Level F": "[[Finale]]",
+  "Lorule": {
+    "default": "[[Lorule]]",
+    "sections": {
+      "HWL": "[[Lorule Map]]"
+    }
+  },
+  "Low%": "[[Low%]]",
+  "MG": "[[Major Glitches (MG)|Major Glitches]]",
+  "MM: Off": "Mystery Mode Off",
+  "MSS": "[[Superswim|Manual Superswimming]]",
+  "MST": "[[MST|Medallions/Stones/Trials]]",
+  "Main Quest": "[[Main Quest]]",
+  "Main Quests": "[[Main Quest]]s",
+  "Major Glitches": "[[Major Glitches (MG)|Major Glitches]]",
+  "Majora's Mask": {
+    "default": "[[Majora's Mask]]",
+    "sections": {
+      "HW": "[[Termina Map]]",
+      "HWL": "[[Termina Map]]"
+    }
+  },
+  "Mask": "[[Mask]]",
+  "Masks": "[[Mask]]s",
+  "Master Mode": "[[Master Mode]]",
+  "Master Quest": {
+    "default": "[[Master Quest]]",
+    "sections": {
+      "HW": "[[Master Quest Map]]",
+      "HWL": "[[Master Quest Map]]"
+    }
+  },
+  "Master Sword": "[[Master Sword]]",
+  "Master Wind Waker": {
+    "default": "[[Master Wind Waker]]",
+    "sections": {
+      "HWL": "[[Master Wind Waker Map]]"
+    }
+  },
+  "Medallions/Stones/Trials": "[[MST|Medallions/Stones/Trials]]",
+  "Medals": "[[Medal]]s",
+  "Micross": "[[Picross|Micross]]",
+  "Mirror Shards": "[[Mirror Shard]]s",
+  "Mirror Shield": "[[Mirror Shield]]",
+  "Multiplayer": "[[Multiplayer]]",
+  "NG": "New Game",
+  "NG +": "[[New Game Plus]]",
+  "NG+": "[[New Game Plus]]",
+  "New Game +": "[[New Game Plus]]",
+  "New Game Plus": "[[New Game Plus]]",
+  "New Game+": "[[New Game Plus]]",
+  "No EG": "No [[Exploration Glitch]]",
+  "NEG": "No [[Exploration Glitch]]",
+  "NMG": "No [[Major Glitches (MG)|Major Glitches]]",
+  "No MG": "No [[Major Glitches (MG)|Major Glitches]]",
+  "NRMG": "No [[Restricted Major Glitches (RMG)|Restricted Major Glitches]]",
+  "No WW": "No [[Wrong Warp]]",
+  "No Wrong Warp": "No [[Wrong Warp]]",
+  "Normal": "Normal Mode",
+  "Normal Mode": "Normal Mode",
+  "OOB": "[[Out-of-Bounds (OoB)|Out-of-Bounds]]",
+  "Ocean Temple": "[[Ocean Temple]]",
+  "OoB": "[[Out-of-Bounds (OoB)|Out-of-Bounds]]",
+  "Out of Bounds": "[[Out-of-Bounds (OoB)|Out-of-Bounds]]",
+  "Out-of-Bounds": "[[Out-of-Bounds (OoB)|Out-of-Bounds]]",
+  "PD: Off": "Permadeath Off",
+  "PST": "[[Din's Pearl|Pearls]]/[[Sword]]s/[[Triforce]]",
+  "PicaPic": "[[PicaPic]]",
+  "Picross": "[[Picross]]",
+  "Pinkle%": "[[Pinkle]]%",
+  "Platinum": "[[Platinum Medal]]s",
+  "RAM Prep": "RAM Prep",
+  "RA": "[[Rooster Adventure (RA)|Rooster Adventure]]",
+  "RCE": "[[RCE|Remote Code Execution]]",
+  "RDO": "[[Reverse Dungeon Order (RDO)|Reverse Dungeon Order]]",
+  "RMG": "[[Restricted Major Glitches (RMG)|Restricted Major Glitches]]",
+  "RTA": "[[Real Time Attack (RTA)|RTA]]",
+  "Rapids Race": "[[Rapids Race]]",
+  "Realm of Memories": "[[Realm of Memories]]",
+  "Realm Of Memories": "[[Realm of Memories]]",
+  "Restricted Major Glitches": "[[Restricted Major Glitches (RMG)|Restricted Major Glitches]]",
+  "Reverse Dungeon Order": "[[Reverse Dungeon Order (RDO)|Reverse Dungeon Order]]",
+  "S & Q": "[[Save_and_Quit_(S%26Q)|Save & Quit]]",
+  "S&Q": "[[Save_and_Quit_(S%26Q)|Save & Quit]]",
+  "S+Q": "[[Save_and_Quit_(S%26Q)|Save & Quit]]",
+  "SRM": "[[SRM]]",
+  "Sacred Flames": "[[Sacred Flame]]s",
+  "Save & Quit": "[[Save_and_Quit_(S%26Q)|Save & Quit]]",
+  "Scenario": "[[Scenario]]",
+  "Second Quest": "[[Second Quest]]",
+  "Segmented": "[[Segmented]]",
+  "Shrine": "[[Ancient Shrine|Shrine]]",
+  "Shrines": "[[Ancient Shrine|Shrine]]s",
+  "Silver": "[[Silver Medal]]s",
+  "Switch": "[[Nintendo Switch|Switch]]",
+  "Switch 2": "[[Nintendo Switch 2|Switch 2]]",
+  "Switch 2 Edition": "[[Nintendo Switch 2|Switch 2 Edition]]",
+  "Sword-less": "[[Sword]]less",
+  "Swordless": "[[Sword]]less",
+  "Tablets": "[[Stone_Tablet|Tablet]]s",
+  "Termina": {
+    "default": "[[Termina]]",
+    "sections": {
+      "HW": "[[Termina Map]]",
+      "HWL": "[[Termina Map]]"
+    }
+  },
+  "Triforces": "[[Triforce]]s",
+  "Twilight Princess": {
+    "default": "[[Twilight Princess]]",
+    "sections": {
+      "HW": "[[Twilight Map]]",
+      "HWL": "[[Twilight Map]]"
+    }
+  },
+  "Up+A": "[[Up+A]]",
+  "WW": "[[Wrong Warp]]",
+  "Warpless": "No [[Wrong Warp]]",
+  "Warrior": "[[Warrior]]",
+  "Wii": "[[Wii]]",
+  "Wii U": "[[Wii U]]",
+  "Wrong Warp": "[[Wrong Warp]]",
+  "Yerbal": "[[Yerbal]]"
 }

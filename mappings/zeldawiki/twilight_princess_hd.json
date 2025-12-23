@@ -1,0 +1,192 @@
+[
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[Amiibo]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "w20p6vok",
+      "variables": {
+        "e8mq6xn6": "013zryq5"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Amiibo]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "w20p6vok",
+      "variables": {
+        "e8mq6xn6": "rqvjdyq6"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]]",
+    "sr": {
+      "game": "tphd",
+      "category_id": "rklqjvr2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "tphd",
+      "category_id": "ndxjx7v2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Emulator]] {{Small|([[100% Completion|100%]] (No [[Amiibo]]))}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "824961nd",
+      "variables": {
+        "gnx222x8": "013g6rkl"
+      },
+      "kind": "full-game",
+      "category_name": "Emulator",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Emulator]] {{Small|([[All Dungeons (AD)|All Dungeons]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "824961nd",
+      "variables": {
+        "gnx222x8": "zqo4vng1"
+      },
+      "kind": "full-game",
+      "category_name": "Emulator",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Emulator]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "824961nd",
+      "variables": {
+        "gnx222x8": "81wy089q"
+      },
+      "kind": "full-game",
+      "category_name": "Emulator",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Emulator]] {{Small|([[Glitchless]] [[Master Sword]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "824961nd",
+      "variables": {
+        "gnx222x8": "5lejx8p1"
+      },
+      "kind": "full-game",
+      "category_name": "Emulator",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Emulator]] {{Small|([[Glitchless]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "824961nd",
+      "variables": {
+        "gnx222x8": "rqv8yd51"
+      },
+      "kind": "full-game",
+      "category_name": "Emulator",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Emulator]] {{Small|([[Goron Mines]] [[Real Time Attack (RTA)|RTA]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "824961nd",
+      "variables": {
+        "gnx222x8": "0q5r38r1"
+      },
+      "kind": "full-game",
+      "category_name": "Emulator",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]] (No [[Amiibo]]))}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "vdo09m9d",
+      "variables": {
+        "onv7505n": "p12nzed1"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "vdo09m9d",
+      "variables": {
+        "onv7505n": "4lxz4w31"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Master Sword]])}}",
+    "sr": {
+      "game": "tphd",
+      "category_id": "vdo09m9d",
+      "variables": {
+        "onv7505n": "814jdee1"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TPHD",
+    "wiki_category_wikitext": "[[Goron Mines]] [[Real Time Attack (RTA)|RTA]]",
+    "sr": {
+      "game": "tphd",
+      "category_id": "vdo4x662",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Goron Mines RTA",
+      "misc": false
+    }
+  }
+]

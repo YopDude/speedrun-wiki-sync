@@ -1,0 +1,170 @@
+[
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "New Game {{Small|(All Levels)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "9d8gvllk",
+      "variables": {
+        "ylpvjr6l": "81px75kq"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "New Game {{Small|(Main Story)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "9d8gvllk",
+      "variables": {
+        "ylpvjr6l": "p12250k1"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "New Game {{Small|([[Adventure Map]])}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "9d8gvllk",
+      "variables": {
+        "ylpvjr6l": "5lmj0kyl"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "New Game {{Small|([[Legend Mode]] [[100% Completion|100%]])}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "9d8gvllk",
+      "variables": {
+        "ylpvjr6l": "21gxjpmq"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "New Game {{Small|([[Segmented]] [[100% Completion|100%]])}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "9d8gvllk",
+      "variables": {
+        "ylpvjr6l": "gq7d4pyq"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(New Game Adventure)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "xd17m5wd",
+      "variables": {
+        "wle6jp48": "0130e7x1"
+      },
+      "kind": "full-game",
+      "category_name": "Coop",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(New Game All Levels)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "xd17m5wd",
+      "variables": {
+        "wle6jp48": "jq62n33l"
+      },
+      "kind": "full-game",
+      "category_name": "Coop",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(New Game Main Story)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "xd17m5wd",
+      "variables": {
+        "wle6jp48": "mln5540l"
+      },
+      "kind": "full-game",
+      "category_name": "Coop",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|([[New Game Plus]] All Levels)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "xd17m5wd",
+      "variables": {
+        "wle6jp48": "5lmdvzjl"
+      },
+      "kind": "full-game",
+      "category_name": "Coop",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|([[New Game Plus]] Main Story)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "xd17m5wd",
+      "variables": {
+        "wle6jp48": "810xxow1"
+      },
+      "kind": "full-game",
+      "category_name": "Coop",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "[[New Game Plus]] {{Small|(All Levels)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "824rp8nd",
+      "variables": {
+        "789ko43l": "gq777vvq"
+      },
+      "kind": "full-game",
+      "category_name": "New Game+",
+      "misc": false
+    }
+  },
+  {
+    "section": "HWDE",
+    "wiki_category_wikitext": "[[New Game Plus]] {{Small|(Main Story)}}",
+    "sr": {
+      "game": "hwde",
+      "category_id": "824rp8nd",
+      "variables": {
+        "789ko43l": "klr5z221"
+      },
+      "kind": "full-game",
+      "category_name": "New Game+",
+      "misc": false
+    }
+  }
+]

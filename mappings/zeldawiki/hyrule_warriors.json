@@ -1,0 +1,180 @@
+[
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "New Game {{Small|(Recommended)}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "rklx8mqk",
+      "variables": {
+        "0nw7w58q": "jq6mp31m"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "New Game {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "rklx8mqk",
+      "variables": {
+        "0nw7w58q": "9qjr9el4"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "New Game {{Small|([[Co-op (Cooperative)|Co-op]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "rklx8mqk",
+      "variables": {
+        "0nw7w58q": "81wg9oq4"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "New Game {{Small|([[Legend Mode]] [[100% Completion|100%]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "rklx8mqk",
+      "variables": {
+        "0nw7w58q": "zqo09pqy"
+      },
+      "kind": "full-game",
+      "category_name": "New Game",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "Triop",
+    "sr": {
+      "game": "hw",
+      "category_id": "02qo3lyk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Triop",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|(Standard)}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "xk90zrgk",
+      "variables": {
+        "j845mwn9": "mln90oqp"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Master Quest Map]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "xk90zrgk",
+      "variables": {
+        "j845mwn9": "810pwolv"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Termina Map]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "xk90zrgk",
+      "variables": {
+        "j845mwn9": "jq6pzv1m"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[Adventure Mode]] {{Small|([[Twilight Map]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "xk90zrgk",
+      "variables": {
+        "j845mwn9": "9qj9x7l4"
+      },
+      "kind": "full-game",
+      "category_name": "Adventure Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[Agitha]]",
+    "sr": {
+      "game": "hw",
+      "category_id": "7kj4mnk3",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Agitha",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[New Game Plus]] {{Small|(Recommended)}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "9kvpg3jk",
+      "variables": {
+        "ylp7rjlg": "4qyr94l7"
+      },
+      "kind": "full-game",
+      "category_name": "New Game +",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[New Game Plus]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "9kvpg3jk",
+      "variables": {
+        "ylp7rjlg": "5q8opg1d"
+      },
+      "kind": "full-game",
+      "category_name": "New Game +",
+      "misc": false
+    }
+  },
+  {
+    "section": "HW",
+    "wiki_category_wikitext": "[[New Game Plus]] {{Small|([[Co-op (Cooperative)|Co-op]])}}",
+    "sr": {
+      "game": "hw",
+      "category_id": "9kvpg3jk",
+      "variables": {
+        "ylp7rjlg": "8108pwqv"
+      },
+      "kind": "full-game",
+      "category_name": "New Game +",
+      "misc": false
+    }
+  }
+]

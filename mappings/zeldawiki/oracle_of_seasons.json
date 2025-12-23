@@ -1,0 +1,26 @@
+[
+  {
+    "section": "OoS",
+    "wiki_category_wikitext": "All [[Essence of Nature|Essences]]",
+    "sr": {
+      "game": "oos",
+      "category_id": "7kjvl6gk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Essences",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoS",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "oos",
+      "category_id": "wk6vlwed",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

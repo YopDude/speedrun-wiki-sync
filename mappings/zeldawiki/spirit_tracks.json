@@ -1,0 +1,114 @@
+[
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo DS|DS]]/[[Emulator]])}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "9kvz93dg",
+      "variables": {
+        "68k5y2z8": "81pk2o8l"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "9kvz93dg",
+      "variables": {
+        "68k5y2z8": "xqkw50kq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo DS|DS]]/[[Emulator]])}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "9d893l2n",
+      "variables": {
+        "68k5y2z8": "81pk2o8l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "9d893l2n",
+      "variables": {
+        "68k5y2z8": "xqkw50kq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[Forest Temple]] [[Real Time Attack (RTA)|RTA]] {{Small|([[Nintendo DS|DS]]/[[Emulator]])}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "vdoqr89k",
+      "variables": {
+        "68k5y2z8": "81pk2o8l"
+      },
+      "kind": "full-game",
+      "category_name": "Forest Temple RTA",
+      "misc": false
+    }
+  },
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[Forest Temple]] [[Real Time Attack (RTA)|RTA]] {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "vdoqr89k",
+      "variables": {
+        "68k5y2z8": "xqkw50kq"
+      },
+      "kind": "full-game",
+      "category_name": "Forest Temple RTA",
+      "misc": false
+    }
+  },
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[Ocean Temple]] [[Real Time Attack (RTA)|RTA]] {{Small|([[Nintendo DS|DS]]/[[Emulator]])}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "w20977j2",
+      "variables": {
+        "68k5y2z8": "81pk2o8l"
+      },
+      "kind": "full-game",
+      "category_name": "Ocean Temple RTA",
+      "misc": false
+    }
+  },
+  {
+    "section": "ST",
+    "wiki_category_wikitext": "[[Ocean Temple]] [[Real Time Attack (RTA)|RTA]] {{Small|([[Wii U]] VC)}}",
+    "sr": {
+      "game": "lozst",
+      "category_id": "w20977j2",
+      "variables": {
+        "68k5y2z8": "xqkw50kq"
+      },
+      "kind": "full-game",
+      "category_name": "Ocean Temple RTA",
+      "misc": false
+    }
+  }
+]

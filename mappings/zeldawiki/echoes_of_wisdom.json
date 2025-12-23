@@ -1,0 +1,94 @@
+[
+  {
+    "section": "EoW",
+    "wiki_category_wikitext": "Defeat [[Ganon]]",
+    "sr": {
+      "game": "eow",
+      "category_id": "wk6yzped",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Defeat Ganon",
+      "misc": false
+    }
+  },
+  {
+    "section": "EoW",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "eow",
+      "category_id": "5dwzrjgd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "EoW",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(Restricted)}}",
+    "sr": {
+      "game": "eow",
+      "category_id": "mkem3o92",
+      "variables": {
+        "ylqx0xz8": "q65xodol"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "EoW",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "eow",
+      "category_id": "mkem3o92",
+      "variables": {
+        "ylqx0xz8": "qj74m3oq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "EoW",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Restricted)}}",
+    "sr": {
+      "game": "eow",
+      "category_id": "rkly4wwd",
+      "variables": {
+        "0nwm6or8": "13955mk1"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "EoW",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Unrestricted)}}",
+    "sr": {
+      "game": "eow",
+      "category_id": "rkly4wwd",
+      "variables": {
+        "0nwm6or8": "qoxrr3gq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "EoW",
+    "wiki_category_wikitext": "[[Glitchless]]",
+    "sr": {
+      "game": "eow",
+      "category_id": "7dgpl84d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  }
+]

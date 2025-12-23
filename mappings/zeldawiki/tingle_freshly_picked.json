@@ -1,0 +1,38 @@
+[
+  {
+    "section": "FPTRR",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "trr",
+      "category_id": "z27o1g5d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "FPTRR",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "trr",
+      "category_id": "zdnwm8qd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "FPTRR",
+    "wiki_category_wikitext": "[[Pinkle]]%",
+    "sr": {
+      "game": "trr",
+      "category_id": "n2y1p6e2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Pinkle%",
+      "misc": false
+    }
+  }
+]

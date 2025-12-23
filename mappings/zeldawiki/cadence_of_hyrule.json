@@ -1,0 +1,578 @@
+[
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All Barriers & Castles {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "wkp03qg2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All Barriers & Castles",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All Barriers & Castles {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Double / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "wkp03qg2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "zqopm0p1",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All Barriers & Castles",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All Barriers & Castles {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "wkp03qg2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All Barriers & Castles",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All Timelines {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "zdnlxpn2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All Timelines",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All Timelines {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "zdnlxpn2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All Timelines",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All [[Instrument]]s {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "vdox1qyd",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All Instruments",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All [[Instrument]]s {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "vdox1qyd",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All Instruments",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All-Characters Mode {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "wkp0m4v2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All-Characters Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "All-Characters Mode {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "wkp0m4v2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "All-Characters Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Puzzle All-Characters {{Small|(No Restrictions / 1.4.0+ (Current) / No H/BB / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "xk9e81v2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw43n": "5q86eg31",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Puzzle All-Characters",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Puzzle All-Characters {{Small|(No Restrictions / 1.4.0+ (Current) / PIO / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "xk9e81v2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw43n": "4qypxn2q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Puzzle All-Characters",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Puzzle All-Characters {{Small|(No Restrictions / 1.4.0+ (Current) / [[Any%]] / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "xk9e81v2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw43n": "21dz425l",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Puzzle All-Characters",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Puzzle All-Characters {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / No H/BB / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "xk9e81v2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw43n": "5q86eg31",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Puzzle All-Characters",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Puzzle All-Characters {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / PIO / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "xk9e81v2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw43n": "4qypxn2q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Puzzle All-Characters",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Puzzle All-Characters {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / [[Any%]] / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "xk9e81v2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw43n": "21dz425l",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Puzzle All-Characters",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Story: [[Any%]] {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz74x3k",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Story: Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Story: [[Any%]] {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz74x3k",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Story: Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Weaponless {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "q25e3wj2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Weaponless",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "Weaponless {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "q25e3wj2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "Weaponless",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No Restrictions / 1.4.0+ (Current) / SotM+ / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "vdomvrv2",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "dloyv7r8": "z19m530l",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / SotM+ / Regular / Permadeath Off / Mystery Mode Off)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "vdomvrv2",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "dloyv7r8": "z19m530l",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / \"Shortcut\")}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "0q5n20rq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / AB&C)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "814y2nw1"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / All [[Instrument]]s)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "4lxpyjjq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / [[100% Completion|100%]])}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "p12d20vq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No Restrictions / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / [[Any%]])}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "8108v35q",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "5lerewpq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / \"Shortcut\")}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "0q5n20rq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / AB&C)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "814y2nw1"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / All [[Instrument]]s)}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "4lxpyjjq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / [[100% Completion|100%]])}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "p12d20vq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  },
+  {
+    "section": "CoH",
+    "wiki_category_wikitext": "[[Co-op (Cooperative)|Co-op]] {{Small|(No [[Major Glitches (MG)|Major Glitches]] / 1.4.0+ (Current) / Regular / Permadeath Off / Mystery Mode Off / [[Any%]])}}",
+    "sr": {
+      "game": "coh",
+      "category_id": "jdz7g13k",
+      "variables": {
+        "p85rpp7n": "4qyrz37l",
+        "wl33qmwl": "jq60ym3q",
+        "ylqmw6mn": "5lmk8yjq",
+        "78969x58": "xqkj95nl",
+        "2lgrd36n": "21g8e6nl",
+        "ql67vvx8": "5lerewpq"
+      },
+      "kind": "full-game",
+      "category_name": "Co-Op",
+      "misc": false
+    }
+  }
+]

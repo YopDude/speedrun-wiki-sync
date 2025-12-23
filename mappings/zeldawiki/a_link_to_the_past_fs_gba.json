@@ -1,0 +1,74 @@
+[
+  {
+    "section": "ALttP&FS",
+    "wiki_category_wikitext": "No [[Major Glitches (MG)|Major Glitches]]",
+    "sr": {
+      "game": "alttpgba",
+      "category_id": "9d8pl7lk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "No Major Glitches",
+      "misc": false
+    }
+  },
+  {
+    "section": "ALttP&FS",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "alttpgba",
+      "category_id": "02qgrq9d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ALttP&FS",
+    "wiki_category_wikitext": "[[Any%]] ([[Exploration Glitch]])",
+    "sr": {
+      "game": "alttpgba",
+      "category_id": "824x8ynd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% (Exploration Glitch)",
+      "misc": false
+    }
+  },
+  {
+    "section": "ALttP&FS",
+    "wiki_category_wikitext": "[[Low%]]",
+    "sr": {
+      "game": "alttpgba",
+      "category_id": "zd30qprd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ALttP&FS",
+    "wiki_category_wikitext": "[[Master Sword]]",
+    "sr": {
+      "game": "alttpgba",
+      "category_id": "824xe7md",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Master Sword",
+      "misc": false
+    }
+  },
+  {
+    "section": "ALttP&FS",
+    "wiki_category_wikitext": "[[Mirror Shield]]",
+    "sr": {
+      "game": "alttpgba",
+      "category_id": "q25ozejk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Mirror Shield",
+      "misc": false
+    }
+  }
+]

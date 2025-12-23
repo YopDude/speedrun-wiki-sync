@@ -1,0 +1,146 @@
+[
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "Reverse [[Boss]] Order",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "rklrrgqk",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Reverse Boss Order",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "9kvmqokg",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[100% Completion|100%]] All Keys, 1CC",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "9d86o62n",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100% All Keys, 1CC",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[100% Completion|100%]] No [[Major Glitches (MG)|Major Glitches]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "z276wegd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100% NMG",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[100% Completion|100%]] [[Game Over|Deathless]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "jdz8e3dv",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100% Deathless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "z27640d0",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[Any%]] No Door [[Great Fairy|Fairy]]ing",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "02qo9jky",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% No Door Fairying",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[Any%]] No Scroll Lock",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "824pnem2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% No Scroll Lock",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[Any%]] No [[Major Glitches (MG)|Major Glitches]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "8246lmd5",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% NMG",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[Any%]] [[Game Over|Deathless]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "jdrx9gd6",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% Deathless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[New Game Plus]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "q25qey2o",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "New Game+",
+      "misc": false
+    }
+  },
+  {
+    "section": "TAoL",
+    "wiki_category_wikitext": "[[New Game Plus]] No [[Major Glitches (MG)|Major Glitches]]",
+    "sr": {
+      "game": "zelda_ii_the_adventure_of_link",
+      "category_id": "zd36v8dn",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "New Game+ NMG",
+      "misc": false
+    }
+  }
+]

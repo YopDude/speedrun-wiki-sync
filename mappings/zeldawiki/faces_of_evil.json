@@ -1,0 +1,86 @@
+[
+  {
+    "section": "TFoE",
+    "wiki_category_wikitext": "All Cutscenes {{Small|(Original Hardware)}}",
+    "sr": {
+      "game": "facesofevil",
+      "category_id": "vdom4192",
+      "variables": {
+        "j846dvjl": "810m855l"
+      },
+      "kind": "full-game",
+      "category_name": "All Cutscenes",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFoE",
+    "wiki_category_wikitext": "All Cutscenes {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "facesofevil",
+      "category_id": "vdom4192",
+      "variables": {
+        "j846dvjl": "9qj4rzgq"
+      },
+      "kind": "full-game",
+      "category_name": "All Cutscenes",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFoE",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(Original Hardware)}}",
+    "sr": {
+      "game": "facesofevil",
+      "category_id": "9kvpqy0k",
+      "variables": {
+        "j846dvjl": "810m855l"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFoE",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "facesofevil",
+      "category_id": "9kvpqy0k",
+      "variables": {
+        "j846dvjl": "9qj4rzgq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFoE",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Original Hardware)}}",
+    "sr": {
+      "game": "facesofevil",
+      "category_id": "zd30v7nd",
+      "variables": {
+        "j846dvjl": "810m855l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFoE",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Emulator]])}}",
+    "sr": {
+      "game": "facesofevil",
+      "category_id": "zd30v7nd",
+      "variables": {
+        "j846dvjl": "9qj4rzgq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "All [[Fused Shadow]]s",
+    "sr": {
+      "game": "tp",
+      "category_id": "w20evjdn",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Fused Shadows",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "All [[Mirror Shard]]s",
+    "sr": {
+      "game": "tp",
+      "category_id": "wdmmledq",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Mirror Shards",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "No [[Save_and_Quit_(S%26Q)|Save & Quit]]",
+    "sr": {
+      "game": "tp",
+      "category_id": "jdzr7r2v",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "No Save & Quit",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "jdrwenk6",
+      "variables": {
+        "ylqoryz8": "q75vm4r1"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Wii]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "jdrwenk6",
+      "variables": {
+        "ylqoryz8": "1gnwz4ol"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "q2553j2o",
+      "variables": {
+        "yn262kgl": "192g6nyq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[Wii]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "q2553j2o",
+      "variables": {
+        "yn262kgl": "12ver7dq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo GameCube|GameCube]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "z275l4k0",
+      "variables": {
+        "kn0zjg78": "013mr0xl"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Wii]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "z275l4k0",
+      "variables": {
+        "kn0zjg78": "rqvrd76l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Forest Temple]] (No [[Save_and_Quit_(S%26Q)|Save & Quit]])",
+    "sr": {
+      "game": "tp",
+      "category_id": "5dwq45dg",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Forest Temple (No S&Q)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "rklnyw62",
+      "variables": {
+        "e8m6jrql": "81pm89e1"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "rklnyw62",
+      "variables": {
+        "e8m6jrql": "p12y37vq"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Goron Mines]] [[Real Time Attack (RTA)|RTA]]",
+    "sr": {
+      "game": "tp",
+      "category_id": "rkl0v6kn",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Goron Mines RTA",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Master Sword]] {{Small|(No [[Save_and_Quit_(S%26Q)|Save & Quit]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "7dg1ngd4",
+      "variables": {
+        "rn1zyovl": "z193zwj1"
+      },
+      "kind": "full-game",
+      "category_name": "Master Sword",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "[[Master Sword]] {{Small|([[Real Time Attack (RTA)|RTA]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "7dg1ngd4",
+      "variables": {
+        "rn1zyovl": "814j2zw1"
+      },
+      "kind": "full-game",
+      "category_name": "Master Sword",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "バグなし (JP [[Glitchless]]) {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "zd358ekn",
+      "variables": {
+        "68ko1jzn": "01302gk1"
+      },
+      "kind": "full-game",
+      "category_name": "バグなし (JP Glitchless)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "バグなし (JP [[Glitchless]]) {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "zd358ekn",
+      "variables": {
+        "68ko1jzn": "zqo054gq"
+      },
+      "kind": "full-game",
+      "category_name": "バグなし (JP Glitchless)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "バグなし (JP [[Glitchless]]) {{Small|([[Master Sword]] After)}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "zd358ekn",
+      "variables": {
+        "68ko1jzn": "5leoejpq"
+      },
+      "kind": "full-game",
+      "category_name": "バグなし (JP Glitchless)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TP",
+    "wiki_category_wikitext": "バグなし (JP [[Glitchless]]) {{Small|([[Master Sword]])}}",
+    "sr": {
+      "game": "tp",
+      "category_id": "zd358ekn",
+      "variables": {
+        "68ko1jzn": "rqv7m85q"
+      },
+      "kind": "full-game",
+      "category_name": "バグなし (JP Glitchless)",
+      "misc": false
+    }
+  }
+]

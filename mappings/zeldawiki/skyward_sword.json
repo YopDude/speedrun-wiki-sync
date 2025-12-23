@@ -1,0 +1,122 @@
+[
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "Talk to [[Yerbal]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "vdox0pod",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Talk to Yerbal",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[100% Completion|100%]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "ndxqy5kq",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[100% Completion|100%]] No [[Back in Time]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "xd11qq4d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "100% No BiT",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "q253wn8k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "rklywrdn",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[Any%]] No [[Back in Time]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "mke4emx2",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% No BiT",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[Any%]] Normal Mode",
+    "sr": {
+      "game": "lozss",
+      "category_id": "ndx51rok",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% Normal Mode",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[Any%]] Restricted [[Back in Time]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "n2ymp472",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any% Restricted BiT",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[Boss Rush]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "9d8pvg7k",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Boss Rush",
+      "misc": false
+    }
+  },
+  {
+    "section": "SS",
+    "wiki_category_wikitext": "[[Goddess's Harp|Harp]]",
+    "sr": {
+      "game": "lozss",
+      "category_id": "w20o082n",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Harp",
+      "misc": false
+    }
+  }
+]

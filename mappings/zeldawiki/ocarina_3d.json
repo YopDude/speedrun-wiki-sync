@@ -1,0 +1,170 @@
+[
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(Regular Quest)}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "zd30x1vd",
+      "variables": {
+        "yn2vxv08": "0q5284mq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Master Quest]])}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "zd30x1vd",
+      "variables": {
+        "yn2vxv08": "4lxy4g2q"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(Regular Quest)}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "wdmz6332",
+      "variables": {
+        "ql6gzgj8": "81pxnegq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[Master Quest]])}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "wdmz6332",
+      "variables": {
+        "ql6gzgj8": "xqkz8onq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[Any%]] [[New Game Plus]] {{Small|(Regular Quest)}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "w20p37ok",
+      "variables": {
+        "rn1jjzon": "xqkvxxyl"
+      },
+      "kind": "full-game",
+      "category_name": "Any% NG+",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[Any%]] [[New Game Plus]] {{Small|([[Master Quest]])}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "w20p37ok",
+      "variables": {
+        "rn1jjzon": "gq7866y1"
+      },
+      "kind": "full-game",
+      "category_name": "Any% NG+",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Regular Quest)}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "9kvp9e8k",
+      "variables": {
+        "9l73039n": "rqvmdx7q"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Master Quest]])}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "9kvp9e8k",
+      "variables": {
+        "9l73039n": "5lee8n5l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|(Regular Quest)}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "9kvp9e3k",
+      "variables": {
+        "kn04o43l": "z19zrx0q"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Master Quest]])}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "9kvp9e3k",
+      "variables": {
+        "kn04o43l": "p122z971"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[MST|Medallions/Stones/Trials]] {{Small|(Regular Quest)}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "9d8p30lk",
+      "variables": {
+        "6njvdvpn": "8142d90l"
+      },
+      "kind": "full-game",
+      "category_name": "MST",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT3D",
+    "wiki_category_wikitext": "[[MST|Medallions/Stones/Trials]] {{Small|([[Master Quest]])}}",
+    "sr": {
+      "game": "oot3d",
+      "category_id": "9d8p30lk",
+      "variables": {
+        "6njvdvpn": "81p9ggkq"
+      },
+      "kind": "full-game",
+      "category_name": "MST",
+      "misc": false
+    }
+  }
+]

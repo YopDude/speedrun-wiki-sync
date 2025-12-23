@@ -1,0 +1,170 @@
+[
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "Both Quests {{Small|([[Game Boy Advance]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "9d8x16l2",
+      "variables": {
+        "dlo71j58": "jq6mw7n1"
+      },
+      "kind": "full-game",
+      "category_name": "Both Quests",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "Both Quests {{Small|([[PicaPic]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "9d8x16l2",
+      "variables": {
+        "dlo71j58": "81wgj89q"
+      },
+      "kind": "full-game",
+      "category_name": "Both Quests",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "Both Quests {{Small|([[Zelda_(Game_%26_Watch)|Game & Watch]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "9d8x16l2",
+      "variables": {
+        "dlo71j58": "9qjrod0l"
+      },
+      "kind": "full-game",
+      "category_name": "Both Quests",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Game Boy Advance]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "zd3y3ny2",
+      "variables": {
+        "dlo71j58": "jq6mw7n1"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[PicaPic]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "zd3y3ny2",
+      "variables": {
+        "dlo71j58": "81wgj89q"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Zelda_(Game_%26_Watch)|Game & Watch]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "zd3y3ny2",
+      "variables": {
+        "dlo71j58": "9qjrod0l"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[Game Boy Advance]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "9kvx0m82",
+      "variables": {
+        "dlo71j58": "jq6mw7n1"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[PicaPic]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "9kvx0m82",
+      "variables": {
+        "dlo71j58": "81wgj89q"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Low%]] {{Small|([[Zelda_(Game_%26_Watch)|Game & Watch]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "9kvx0m82",
+      "variables": {
+        "dlo71j58": "9qjrod0l"
+      },
+      "kind": "full-game",
+      "category_name": "Low%",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Second Quest]] {{Small|([[Game Boy Advance]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "824156n2",
+      "variables": {
+        "dlo71j58": "jq6mw7n1"
+      },
+      "kind": "full-game",
+      "category_name": "2nd Quest",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Second Quest]] {{Small|([[PicaPic]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "824156n2",
+      "variables": {
+        "dlo71j58": "81wgj89q"
+      },
+      "kind": "full-game",
+      "category_name": "2nd Quest",
+      "misc": false
+    }
+  },
+  {
+    "section": "ZG&W",
+    "wiki_category_wikitext": "[[Second Quest]] {{Small|([[Zelda_(Game_%26_Watch)|Game & Watch]])}}",
+    "sr": {
+      "game": "zelda_game_and_watch",
+      "category_id": "824156n2",
+      "variables": {
+        "dlo71j58": "9qjrod0l"
+      },
+      "kind": "full-game",
+      "category_name": "2nd Quest",
+      "misc": false
+    }
+  }
+]
