@@ -57,18 +57,6 @@
   },
   {
     "section": "HW",
-    "wiki_category_wikitext": "Triop",
-    "sr": {
-      "game": "hw",
-      "category_id": "02qo3lyk",
-      "variables": {},
-      "kind": "full-game",
-      "category_name": "Triop",
-      "misc": false
-    }
-  },
-  {
-    "section": "HW",
     "wiki_category_wikitext": "[[Adventure Mode]] {{Small|(Standard)}}",
     "sr": {
       "game": "hw",

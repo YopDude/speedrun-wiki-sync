@@ -11,7 +11,9 @@ In plain terms:
 It **does not guess**, **does not create new rows**, and **does not restructure pages**. Everything the bot touches is explicitly defined by you.
 
 For any queries, feel free to contact me on:
+
 DaYopDude@proton.me
+
 yopDude on Discord
 
 ---
