@@ -15,12 +15,26 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "All [[Ancient Shrine|Shrine]]s {{Small|(v1.2.1+ (Latest))}}",
+    "wiki_category_wikitext": "All [[Ancient Shrine|Shrine]]s {{Small|([[Nintendo Switch|Switch]] (1.2.1+))}}",
     "sr": {
       "game": "totk",
       "category_id": "vdog9112",
       "variables": {
         "r8redm2l": "1924k48q"
+      },
+      "kind": "full-game",
+      "category_name": "All Shrines",
+      "misc": false
+    }
+  },
+  {
+    "section": "TotK",
+    "wiki_category_wikitext": "All [[Ancient Shrine|Shrine]]s {{Small|([[Nintendo Switch|Switch]] (Pre-1.2.1))}}",
+    "sr": {
+      "game": "totk",
+      "category_id": "vdog9112",
+      "variables": {
+        "r8redm2l": "le2k5kkl"
       },
       "kind": "full-game",
       "category_name": "All Shrines",
@@ -43,12 +57,26 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "All [[Main Quest]]s {{Small|(v1.2.1+ (Latest))}}",
+    "wiki_category_wikitext": "All [[Main Quest]]s {{Small|([[Nintendo Switch|Switch]] (1.2.1+))}}",
     "sr": {
       "game": "totk",
       "category_id": "vdog70o2",
       "variables": {
         "5lyezgk8": "1gnj5j8l"
+      },
+      "kind": "full-game",
+      "category_name": "All Main Quests",
+      "misc": false
+    }
+  },
+  {
+    "section": "TotK",
+    "wiki_category_wikitext": "All [[Main Quest]]s {{Small|([[Nintendo Switch|Switch]] (Pre-1.2.1))}}",
+    "sr": {
+      "game": "totk",
+      "category_id": "vdog70o2",
+      "variables": {
+        "5lyezgk8": "1py72781"
       },
       "kind": "full-game",
       "category_name": "All Main Quests",
@@ -71,12 +99,26 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(v1.2.1+ (Latest))}}",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo Switch|Switch]] (1.2.1+))}}",
     "sr": {
       "game": "totk",
       "category_id": "jdz49erk",
       "variables": {
         "p85pxg0l": "qoxy9yxq"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TotK",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[Nintendo Switch|Switch]] (Pre-1.2.1))}}",
+    "sr": {
+      "game": "totk",
+      "category_id": "jdz49erk",
+      "variables": {
+        "p85pxg0l": "qj7z9w3q"
       },
       "kind": "full-game",
       "category_name": "100%",
@@ -99,12 +141,26 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(v1.2.1+ (Latest))}}",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[Nintendo Switch|Switch]] (1.2.1+))}}",
     "sr": {
       "game": "totk",
       "category_id": "wdmojz4k",
       "variables": {
         "e8mpe1v8": "qzn6962q"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "TotK",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|([[Nintendo Switch|Switch]] (Pre-1.2.1))}}",
+    "sr": {
+      "game": "totk",
+      "category_id": "wdmojz4k",
+      "variables": {
+        "e8mpe1v8": "qzn6968q"
       },
       "kind": "full-game",
       "category_name": "All Dungeons",
@@ -127,12 +183,26 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[Any%]] {{Small|(v1.2.1+ (Latest))}}",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo Switch|Switch]] (1.2.1+))}}",
     "sr": {
       "game": "totk",
       "category_id": "w20mopzk",
       "variables": {
         "rn1g4gdn": "1922mm0q"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TotK",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Nintendo Switch|Switch]] (Pre-1.2.1))}}",
+    "sr": {
+      "game": "totk",
+      "category_id": "w20mopzk",
+      "variables": {
+        "rn1g4gdn": "14ooyy0q"
       },
       "kind": "full-game",
       "category_name": "Any%",
@@ -156,7 +226,7 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[Glitchless]] {{Small|(All [[Ancient Shrine|Shrine]]s / [[Nintendo Switch|Switch]] 1)}}",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|(All [[Ancient Shrine|Shrine]]s / [[Nintendo Switch|Switch]])}}",
     "sr": {
       "game": "totk",
       "category_id": "w20956z2",
@@ -186,7 +256,7 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[Glitchless]] {{Small|(All [[Main Quest]]s / [[Nintendo Switch|Switch]] 1)}}",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|(All [[Main Quest]]s / [[Nintendo Switch|Switch]])}}",
     "sr": {
       "game": "totk",
       "category_id": "w20956z2",
@@ -216,7 +286,7 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]] / [[Nintendo Switch|Switch]] 1)}}",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]] / [[Nintendo Switch|Switch]])}}",
     "sr": {
       "game": "totk",
       "category_id": "w20956z2",
@@ -246,7 +316,7 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[All Dungeons (AD)|All Dungeons]] / [[Nintendo Switch|Switch]] 1)}}",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[All Dungeons (AD)|All Dungeons]] / [[Nintendo Switch|Switch]])}}",
     "sr": {
       "game": "totk",
       "category_id": "w20956z2",
@@ -276,7 +346,7 @@
   },
   {
     "section": "TotK",
-    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]] / [[Nintendo Switch|Switch]] 1)}}",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]] / [[Nintendo Switch|Switch]])}}",
     "sr": {
       "game": "totk",
       "category_id": "w20956z2",
