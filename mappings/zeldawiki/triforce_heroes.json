@@ -1,0 +1,226 @@
+[
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Drablands Challenge|Challenge]]s ([[Hero's Tunic]]) {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "7kjv9ynk",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "All Challenges (Hero's Tunic)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Drablands Challenge|Challenge]]s ([[Hero's Tunic]]) {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "7kjv9ynk",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "All Challenges (Hero's Tunic)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Drablands Challenge|Challenge]]s {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "ndxjnej2",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "All Challenges",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Drablands Challenge|Challenge]]s {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "ndxjnej2",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "All Challenges",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Levels_in_Tri_Force_Heroes|Level]]s ([[Hero's Tunic]]) {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "5dwjneek",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "All Levels (Hero's Tunic)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Levels_in_Tri_Force_Heroes|Level]]s ([[Hero's Tunic]]) {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "5dwjneek",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "All Levels (Hero's Tunic)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Levels_in_Tri_Force_Heroes|Level]]s {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "ndxjn9j2",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "All Levels",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "All [[Levels_in_Tri_Force_Heroes|Level]]s {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "ndxjn9j2",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "All Levels",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Any%]] No Skips {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "jdzw9o6d",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "Any% No Skips",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Any%]] No Skips {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "jdzw9o6d",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "Any% No Skips",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Any%]] {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "z2713p02",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Any%]] {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "z2713p02",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Den of Trials]] ([[Hero's Tunic]]) {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "5dwgyjek",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "Den of Trials (Hero's Tunic)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Den of Trials]] ([[Hero's Tunic]]) {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "5dwgyjek",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "Den of Trials (Hero's Tunic)",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Den of Trials]] {{Small|(Singleplayer)}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "zd30r18d",
+      "variables": {
+        "38doj2zl": "814k6vel"
+      },
+      "kind": "full-game",
+      "category_name": "Den of Trials",
+      "misc": false
+    }
+  },
+  {
+    "section": "TFH",
+    "wiki_category_wikitext": "[[Den of Trials]] {{Small|([[Multiplayer]])}}",
+    "sr": {
+      "game": "tfh",
+      "category_id": "zd30r18d",
+      "variables": {
+        "38doj2zl": "z195v9yq"
+      },
+      "kind": "full-game",
+      "category_name": "Den of Trials",
+      "misc": false
+    }
+  }
+]

@@ -24,6 +24,12 @@
   "Bronze": "[[Bronze Medal]]s",
   "CD-i": "[[Philips_CD-i|CD-i]]",
   "Cane of Byrna": "[[Cane of Byrna]]",
+  "Challenge": {
+    "default": "Challenge",
+    "sections": {
+      "TFH": "[[Drablands Challenge|Challenge]]"
+    }
+  },
   "Co-Op": "[[Co-op (Cooperative)|Co-op]]",
   "Co-op": "[[Co-op (Cooperative)|Co-op]]",
   "Coop": "[[Co-op (Cooperative)|Co-op]]",
@@ -101,6 +107,7 @@
   "Harp": "[[Goddess's Harp|Harp]]",
   "Hero": "[[Hero Mode]]",
   "Hero Mode": "[[Hero Mode]]",
+  "Hero's Tunic": "[[Hero's Tunic]]",
   "Hinox": "[[Hinox]]",
   "Instruments": {
     "default": "[[Instrument]]s",
@@ -110,7 +117,7 @@
       "LANS": "[[Instrument of the Sirens|Instruments]]"
     }
   },
-  "Kakariko": "[[Kakariko]]",
+  "Kakariko": "[[Kakariko Village]]",
   "Koholint": {
     "default": "[[Koholint Island]]",
     "sections": {
@@ -118,6 +125,12 @@
     }
   },
   "Legend Mode": "[[Legend Mode]]",
+  "Level": {
+    "default": "Level",
+    "sections": {
+      "TFH": "[[Levels_in_Tri_Force_Heroes|Level]]"
+    }
+  },
   "Level 1": "[[Level 1]]",
   "Level 2": "[[Level 2]]",
   "Level 3": "[[Level 3]]",
@@ -184,6 +197,7 @@
   "NRMG": "No [[Restricted Major Glitches (RMG)|Restricted Major Glitches]]",
   "No WW": "No [[Wrong Warp]]",
   "No Wrong Warp": "No [[Wrong Warp]]",
+  "Nocturne": "[[Nocturne of Shadow]]",
   "Normal": "Normal Mode",
   "Normal Mode": "Normal Mode",
   "OOB": "[[Out-of-Bounds (OoB)|Out-of-Bounds]]",

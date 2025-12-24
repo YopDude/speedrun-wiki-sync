@@ -126,25 +126,60 @@ def load_wikiterms(section_id: str | None) -> list[tuple[str, str]]:
     return terms
 
 
-def load_exceptions_for_mapping(mapping: str) -> tuple[list[str], list[str]]:
+def load_exceptions_for_mapping(mapping: str) -> tuple[list[str], list[str], list[str], list[str], list[str], list[str]]:
+    """
+    Load optional per-mapping curation rules.
+
+    File: mappings/zeldawiki/curation/<mapping>.json
+
+    Backwards compatible formats:
+
+    1) List[str]
+       Interpreted as legacy deny list (same as {"contains": [...]})
+
+    2) Dict with:
+       - "contains": list[str]            (deny substrings, case-insensitive)
+       - "contains_exceptions": list[str] (scoped allow overrides, case-insensitive)
+
+    New (optional) label filtering for subcategory variables:
+       - "label_vars_keep": list[str]  (speedrun.com variable IDs to INCLUDE in the wiki label)
+       - "label_vars_drop": list[str]  (speedrun.com variable IDs to EXCLUDE from the wiki label)
+
+    Note: label filtering only affects the displayed wiki_category_wikitext. It does NOT change
+    which variable combinations are generated or stored in sr.variables.
+    """
     path = repo_root() / "mappings" / "zeldawiki" / "curation" / f"{mapping}.json"
     if not path.exists():
-        return ([], [])
+        return ([], [], [], [], [], [])
 
     data = json.loads(path.read_text(encoding="utf-8"))
 
-    def norm_list(v: object) -> list[str]:
+    def norm_list_lc(v: object) -> list[str]:
         if not isinstance(v, list):
             return []
         return [x.strip().lower() for x in v if isinstance(x, str) and x.strip()]
 
+    def norm_list_raw(v: object) -> list[str]:
+        if not isinstance(v, list):
+            return []
+        return [x.strip() for x in v if isinstance(x, str) and x.strip()]
+
+    # Legacy: list means deny-only
     if isinstance(data, list):
-        return (norm_list(data), [])
+        return (norm_list_lc(data), [], [], [], [], [])
 
     if isinstance(data, dict):
-        deny = norm_list(data.get("contains"))
-        allow = norm_list(data.get("contains_exceptions"))
-        return (deny, allow)
+        deny = norm_list_lc(data.get("contains"))
+        allow = norm_list_lc(data.get("contains_exceptions"))
+
+        label_keep = norm_list_raw(data.get("label_vars_keep"))
+        label_drop = norm_list_raw(data.get("label_vars_drop"))
+
+        # NEW (optional): filter variables used in the API query (sr.variables)
+        query_keep = norm_list_raw(data.get("query_vars_keep"))
+        query_drop = norm_list_raw(data.get("query_vars_drop"))
+
+        return (deny, allow, label_keep, label_drop, query_keep, query_drop)
 
     raise SystemExit(f"Invalid exceptions format in {path}")
 
@@ -237,7 +272,14 @@ def iter_value_labels(var_obj: dict) -> list[Tuple[str, str]]:
     return out
 
 
-def cartesian_var_assignments(sub_vars: list[dict]) -> Iterable[Tuple[dict[str, str], list[str]]]:
+def cartesian_var_assignments(sub_vars: list[dict]) -> Iterable[Tuple[dict[str, str], list[Tuple[str, str]]]]:
+    """
+    Yield all combinations of subcategory variable assignments.
+
+    Returns:
+      - variables: {var_id: value_id} (used for API queries)
+      - labels:    [(var_id, label)] (used for building the wiki row label; can be filtered)
+    """
     if not sub_vars:
         yield ({}, [])
         return
@@ -255,18 +297,48 @@ def cartesian_var_assignments(sub_vars: list[dict]) -> Iterable[Tuple[dict[str, 
 
     for combo in itertools.product(*(vals for _, vals in var_vals)):
         variables: dict[str, str] = {}
-        labels: list[str] = []
+        labels: list[Tuple[str, str]] = []
         for (var_id, _), (value_id, label) in zip(var_vals, combo):
             variables[var_id] = value_id
-            labels.append(label)
+            labels.append((var_id, label))
         yield (variables, labels)
 
 
-def format_wiki_category_wikitext(cat_name: str, sub_labels: list[str], terms: list[tuple[str, str]]) -> str:
+def format_wiki_category_wikitext(
+    cat_name: str,
+    sub_labels: list[Tuple[str, str]],
+    terms: list[tuple[str, str]],
+    *,
+    label_vars_keep: list[str] | None = None,
+    label_vars_drop: list[str] | None = None,
+) -> str:
+    """
+    Build the wiki row label.
+
+    sub_labels is [(var_id, label)].
+
+    If label_vars_keep is provided and non-empty, only those var_ids are included in the label.
+    If label_vars_drop is provided and non-empty, those var_ids are excluded from the label.
+
+    This only affects the display label; sr.variables still contains the full assignment.
+    """
     base = apply_wikiterms(cat_name, terms)
-    if not sub_labels:
+
+    label_vars_keep = [v for v in (label_vars_keep or []) if v]
+    label_vars_drop = [v for v in (label_vars_drop or []) if v]
+
+    filtered: list[str] = []
+    for var_id, lbl in sub_labels:
+        if label_vars_keep and var_id not in label_vars_keep:
+            continue
+        if label_vars_drop and var_id in label_vars_drop:
+            continue
+        filtered.append(lbl)
+
+    if not filtered:
         return base
-    joined = " / ".join(apply_wikiterms(lbl, terms) for lbl in sub_labels)
+
+    joined = " / ".join(apply_wikiterms(lbl, terms) for lbl in filtered)
     return f"{base} {{{{Small|({joined})}}}}"
 
 
@@ -294,6 +366,10 @@ def generate_per_game_entries(
     terms: list[tuple[str, str]],
     deny: list[str],
     allow: list[str],
+    label_vars_keep: list[str],
+    label_vars_drop: list[str],
+    query_vars_keep: list[str],
+    query_vars_drop: list[str],
 ) -> list[dict[str, Any]]:
     cats = get_game_categories(api_base, ua, game_slug)
     cats = [c for c in cats if c.get("type") == "per-game"]
@@ -305,13 +381,20 @@ def generate_per_game_entries(
     debug = os.environ.get("EXCEPTIONS_DEBUG", "").strip() == "1"
 
     out: list[dict[str, Any]] = []
+    seen_keys: set[tuple] = set()
     for c in chosen:
         cat_id = c["id"]
         cat_name = c["name"]
         sub_vars = extract_subcategory_variables(c)
 
         for variables_dict, labels in cartesian_var_assignments(sub_vars):
-            wiki_cat = format_wiki_category_wikitext(cat_name, labels, terms)
+            # Optional: filter variables used in the leaderboard query (sr.variables)
+            # This does NOT affect label rendering unless label_vars_* are also provided.
+            if query_vars_keep:
+                variables_dict = {k: v for k, v in variables_dict.items() if k in query_vars_keep}
+            if query_vars_drop:
+                variables_dict = {k: v for k, v in variables_dict.items() if k not in query_vars_drop}
+            wiki_cat = format_wiki_category_wikitext(cat_name, labels, terms, label_vars_keep=label_vars_keep, label_vars_drop=label_vars_drop)
 
             excluded = should_exclude_wikitext(wiki_cat, deny, allow)
             if debug and (excluded or any(d in wiki_cat.lower() for d in deny)):
@@ -324,6 +407,29 @@ def generate_per_game_entries(
 
             if excluded:
                 continue
+
+            # De-duplicate identical mapping entries (can happen when query_vars_drop removes a differentiator)
+
+            dedupe_key = (
+
+                section,
+
+                wiki_cat,
+
+                game_slug,
+
+                cat_id,
+
+                tuple(sorted((variables_dict or {}).items())),
+
+            )
+
+            if dedupe_key in seen_keys:
+
+                continue
+
+            seen_keys.add(dedupe_key)
+
 
             out.append(
                 {
@@ -441,7 +547,7 @@ def main() -> None:
             # Section-scoped wikiterms
             terms = load_wikiterms(section)
 
-            deny, allow = load_exceptions_for_mapping(stem)
+            deny, allow, label_keep, label_drop, query_keep, query_drop = load_exceptions_for_mapping(stem)
 
             entries = generate_per_game_entries(
                 section=section,
@@ -454,6 +560,10 @@ def main() -> None:
                 terms=terms,
                 deny=deny,
                 allow=allow,
+                label_vars_keep=label_keep,
+                label_vars_drop=label_drop,
+                query_vars_keep=query_keep,
+                query_vars_drop=query_drop,
             )
 
             with open(path, "w", encoding="utf-8") as f:
@@ -471,7 +581,7 @@ def main() -> None:
     # Section-scoped wikiterms
     terms = load_wikiterms(args.section)
 
-    deny, allow = load_exceptions_for_mapping(Path(args.out).stem)
+    deny, allow, label_keep, label_drop, query_keep, query_drop = load_exceptions_for_mapping(Path(args.out).stem)
     entries = generate_per_game_entries(
         section=args.section,
         game_slug=args.game,
@@ -483,6 +593,10 @@ def main() -> None:
         terms=terms,
         deny=deny,
         allow=allow,
+                label_vars_keep=label_keep,
+                label_vars_drop=label_drop,
+                query_vars_keep=query_keep,
+                query_vars_drop=query_drop,
     )
 
     with open(args.out, "w", encoding="utf-8") as f:

@@ -1,0 +1,260 @@
+[
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "Defeat [[Ganon]] {{Small|(Classic [[Kakariko Village]] Route)}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "z275w5k0",
+      "variables": {
+        "p854r2vl": "5q85yy6q"
+      },
+      "kind": "full-game",
+      "category_name": "Defeat Ganon",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "Defeat [[Ganon]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "z275w5k0",
+      "variables": {
+        "p854r2vl": "qke7n9kq"
+      },
+      "kind": "full-game",
+      "category_name": "Defeat Ganon",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "Defeat [[Ganon]] {{Small|(Restricted [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "z275w5k0",
+      "variables": {
+        "p854r2vl": "4qy300dl"
+      },
+      "kind": "full-game",
+      "category_name": "Defeat Ganon",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "Defeat [[Ganon]] {{Small|(Unrestricted [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "z275w5k0",
+      "variables": {
+        "p854r2vl": "1gnj2yxl"
+      },
+      "kind": "full-game",
+      "category_name": "Defeat Ganon",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "No [[Wrong Warp]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "xd1wj828",
+      "variables": {
+        "yn251jgn": "4lx3rrgl"
+      },
+      "kind": "full-game",
+      "category_name": "No Wrong Warp",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "No [[Wrong Warp]] {{Small|(Restricted [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "xd1wj828",
+      "variables": {
+        "yn251jgn": "0q5kyyvq"
+      },
+      "kind": "full-game",
+      "category_name": "No Wrong Warp",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "No [[Wrong Warp]] {{Small|(Unrestricted [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "xd1wj828",
+      "variables": {
+        "yn251jgn": "q75nrkn1"
+      },
+      "kind": "full-game",
+      "category_name": "No Wrong Warp",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "q255jw2o",
+      "variables": {
+        "jlzw5w7l": "0133d8y1"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[100% Completion|100%]] {{Small|([[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "q255jw2o",
+      "variables": {
+        "jlzw5w7l": "zqodkp41"
+      },
+      "kind": "full-game",
+      "category_name": "100%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(No [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "zdnoz72q",
+      "variables": {
+        "9l7717zl": "5led9961"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(Restricted [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "zdnoz72q",
+      "variables": {
+        "9l7717zl": "rqv3gpyl"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[All Dungeons (AD)|All Dungeons]] {{Small|(Unrestricted [[SRM]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "zdnoz72q",
+      "variables": {
+        "9l7717zl": "12v5x3vq"
+      },
+      "kind": "full-game",
+      "category_name": "All Dungeons",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[Any%]]",
+    "sr": {
+      "game": "oot",
+      "category_id": "q25g198d",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Any%",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[GSR|Ganondorf Source Requirement]]",
+    "sr": {
+      "game": "oot",
+      "category_id": "9d85yqdn",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "GSR",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|(All [[Main Quest]]s)}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "zd35jnkn",
+      "variables": {
+        "7890o58w": "gq79gxpl"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[100% Completion|100%]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "zd35jnkn",
+      "variables": {
+        "7890o58w": "814zjeel"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[Glitchless]] {{Small|([[Any%]])}}",
+    "sr": {
+      "game": "oot",
+      "category_id": "zd35jnkn",
+      "variables": {
+        "7890o58w": "xqk98nd1"
+      },
+      "kind": "full-game",
+      "category_name": "Glitchless",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[MST|Medallions/Stones/Trials]]",
+    "sr": {
+      "game": "oot",
+      "category_id": "jdrwr0k6",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "MST",
+      "misc": false
+    }
+  },
+  {
+    "section": "OoT",
+    "wiki_category_wikitext": "[[Nocturne of Shadow]] [[Real Time Attack (RTA)|RTA]]",
+    "sr": {
+      "game": "oot",
+      "category_id": "9d8qp6qd",
+      "variables": {},
+      "kind": "full-game",
+      "category_name": "Nocturne RTA",
+      "misc": false
+    }
+  }
+]

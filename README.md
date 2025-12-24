@@ -22,14 +22,13 @@ The main workflow works end‑to‑end:
 2. Match them against your mappings
 3. Generate updated wikitext
 4. Show you what would change, or apply it
-
-⚠️ **Remaining edge cases**
-
-* **Ocarina of Time** and **Triforce Heroes** still need special handling
-* For these games, the speedrun.com API data does not line up perfectly with what the website displays
-* This is a data‑mismatch issue, not a limitation of the tool’s design
-
 ---
+
+## Things to do
+
+- Run the sync script as an automated job with proper logging
+- Add a monthly summary email (changes applied, failures, new records)
+- Add case-by-case notification emails when new mappings or manual action is required
 
 ## What this tool actually does
 
@@ -144,13 +143,13 @@ python scripts/gen_mapping.py \
 
 What this does:
 
-* `--section "Linked Oracles"`
+* `--section "OoT"`
   The name of the section as it already exists on the wiki page.
 
-* `--game "oracle"`
+* `--game "oot"`
   The speedrun.com game slug to pull categories from.
 
-* `--out ./mappings/zeldawiki/oracle_linked.json`
+* `--out ./mappings/zeldawiki/ocarina.json`
   Where the generated mapping file will be written.
 
 * `--all-categories`
@@ -165,7 +164,7 @@ The output file is **not meant to be final**. You are expected to edit it by han
 ```bash
 PYTHONPATH=src python -m srwikisync.cli \
   --config configs/zeldawiki.yaml \
-  --mapping ./mappings/zeldawiki/ocarina_3d.json \
+  --mapping ./mappings/zeldawiki/ocarina.json \
   --dry-run
 ```
 
@@ -180,7 +179,7 @@ What each argument means:
   * bot username
   * site-specific settings
 
-* `--mapping ./mappings/zeldawiki/ocarina_3d.json`
+* `--mapping ./mappings/zeldawiki/ocarina.json`
   Tells the tool exactly which mapping file to use. Only the pages and rows defined in this file will be touched.
 
 * `--dry-run`
@@ -204,7 +203,7 @@ Use this as often as you want.
 ```bash
 PYTHONPATH=src python -m srwikisync.cli \
   --config configs/zeldawiki.yaml \
-  --mapping ./mappings/zeldawiki/minish_cap.json \
+  --mapping ./mappings/zeldawiki/ocarina.json \
   --write
 ```
 
@@ -215,7 +214,7 @@ Arguments explained:
 * `--config configs/zeldawiki.yaml`
   Same config file as before. Nothing about your setup changes between dry-run and write.
 
-* `--mapping ./mappings/zeldawiki/minish_cap.json`
+* `--mapping ./mappings/zeldawiki/ocarina.json`
   The specific game / page mapping to apply.
 
 * `--write`
@@ -236,7 +235,7 @@ If saving fails, it is usually due to wiki-side restrictions (see CAPTCHA note b
 ```bash
 PYTHONPATH=src python -m srwikisync.cli \
   --config configs/zeldawiki.yaml \
-  --mapping ./mappings/zeldawiki/skyward_sword.json \
+  --mapping ./mappings/zeldawiki/ocarina.json \
   --emit output.txt
 ```
 
@@ -318,8 +317,86 @@ The tool does not attempt to bypass CAPTCHA.
 
 ---
 
+## Curations (advanced mapping control)
+
+Curations let you handle edge cases where speedrun.com’s data model does not map cleanly to how the wiki presents categories.
+They are **optional**, per-game overrides and are only applied when a curation file exists.
+
+Curations live in:
+
+```
+mappings/zeldawiki/curation/
+```
+
+Each file is named after the **mapping filename stem**.
+
+Example:
+```
+mappings/zeldawiki/hyrule_warriors_age_of_imprisonment.json
+→ mappings/zeldawiki/curation/hyrule_warriors_age_of_imprisonment.json
+```
+
+If no curation file exists for a mapping, default behaviour is used.
+
+---
+
+### Existing curation rules (backwards compatible)
+
+- `contains`  
+  Substrings that exclude categories if matched.
+
+- `contains_exceptions`  
+  Overrides for specific allowed cases.
+
+Legacy list-only curations are still supported and treated as a deny list.
+
+---
+
+### New curation rules (label + query control)
+
+#### `label_vars_drop`
+
+Removes speedrun.com **variable IDs** from the displayed wiki label only.
+
+```json
+{
+  "label_vars_drop": ["j84pqgw8"]
+}
+```
+
+---
+
+#### `query_vars_drop`
+
+Removes speedrun.com **variable IDs** from leaderboard API queries.
+
+This is required when a variable exists on speedrun.com but querying with it returns no runs.
+
+```json
+{
+  "label_vars_drop": ["j84pqgw8"],
+  "query_vars_drop": ["j84pqgw8"]
+}
+```
+
+---
+
+### Automatic de-duplication
+
+When dropped query variables cause multiple combinations to collapse into the same category,
+duplicate mapping entries are automatically skipped.
+
+Two entries are considered identical if they share:
+- section
+- wiki category label
+- game
+- category ID
+- query variables
+
 ## License
 
 Creative Commons Attribution–NonCommercial 4.0 International (CC BY‑NC 4.0)
 
 Free for non‑commercial use, modification, and sharing.
+
+---
