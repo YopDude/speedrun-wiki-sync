@@ -1,3 +1,5 @@
+Project Completed. External Adoption Declined. (Not in-use)
+
 # speedrun-wiki-sync
 
 A small, config‑driven tool that keeps **speedrun.com world record data** in sync with **MediaWiki pages**.
