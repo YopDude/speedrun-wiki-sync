@@ -1,139 +1,136 @@
-Project Completed. External Adoption Declined. (Not in-use)
-
 # speedrun-wiki-sync
 
-A small, config‑driven tool that keeps **speedrun.com world record data** in sync with **MediaWiki pages**.
+A small, config-driven tool for keeping **speedrun.com world record data** in sync with **MediaWiki pages**.
 
-In plain terms:
+In short:
 
-* You tell it *which wiki pages exist*
-* You tell it *which speedrun.com categories belong in which rows*
-* The tool fetches the latest records and updates only those rows
+- You define which wiki pages exist
+- You define which speedrun.com categories map to which rows
+- The tool fetches records and updates *only* those rows
 
-It **does not guess**, **does not create new rows**, and **does not restructure pages**. Everything the bot touches is explicitly defined by you.
+It does not guess, invent structure, or modify anything that hasn’t been explicitly defined.
 
 ---
 
 ## Project status
 
-✅ **Functionality is essentially finished**
+**Completed. External adoption declined. (Not in use)**
 
-The main workflow works end‑to‑end:
+The full workflow works end-to-end:
 
-1. Fetch runs from speedrun.com
-2. Match them against your mappings
-3. Generate updated wikitext
-4. Show you what would change, or apply it
+1. Fetch runs from speedrun.com  
+2. Match them against explicit mappings  
+3. Generate updated wikitext  
+4. Either preview the changes or apply them  
+
 ---
 
-## Things to do
+## Possible future work (not planned)
 
-- Run the sync script as an automated job with proper logging
-- Add a monthly summary email (changes applied, failures, new records)
-- Add case-by-case notification emails when new mappings or manual action is required
+- Run as a scheduled job with logging  
+- Periodic summary emails (records changed, failures, unmapped categories)  
+- Optional notifications when manual intervention is needed  
 
-## What this tool actually does
+These were considered but not implemented.
+
+---
+
+## What the tool actually does
 
 At a high level, the tool:
 
-* Pulls verified world‑record runs from the speedrun.com API
-* Normalizes category names, variables, and labels
-* Matches runs to *pre‑defined wiki rows*
-* Regenerates the affected wiki text
-* Either:
+- Pulls verified world-record runs from the speedrun.com API
+- Normalizes category names, variables, and labels
+- Matches runs to **pre-declared wiki rows only**
+- Regenerates the affected wiki text
 
-  * shows you a diff (preview), or
-  * writes the changes to the wiki
+It then either:
+
+- prints a readable diff, or
+- writes the updated text to the wiki
 
 Important boundaries:
 
-* If a run is **not mapped**, it is ignored
-* If a wiki row is **not declared**, it is never touched
-* The bot never invents new structure
+- If a run is **not mapped**, it is ignored
+- If a wiki row is **not declared**, it is never touched
+- No new rows or sections are created
 
 This makes it safe to run repeatedly.
 
 ---
 
-## Project Pipeline
+## Pipeline overview
 
-1. **Mappings** describe *what belongs where*
-2. **Wiki terms** help translate naming differences
+1. **Mappings** define what belongs where
+2. **Wiki terms** translate naming differences
 3. The **API layer** fetches and cleans run data
-4. The **renderer** updates only mapped rows
-5. The **CLI** decides whether to preview, save, or export
+4. The **renderer** updates mapped rows only
+5. The **CLI** controls preview vs write behavior
 
 ---
 
-## Folder and file structure
-
-Here is how the repository is organised and how each part is used:
+## Repository structure
 
 ### `mapping/`
 
-* Each `.json` file usually represents **one game**
-* Each file lists:
+- Each `.json` file usually represents one game
+- Each file lists:
+  - the target wiki page(s)
+  - the rows that already exist
+  - the speedrun.com categories that feed those rows
 
-  * which wiki page(s) are involved
-  * which rows already exist on that page
-  * which speedrun.com categories feed those rows
-
-Only data described here will ever be used.
+Only data defined here is ever used.
 
 ---
 
 ### `wikiterms/`
 
-Speedrun.com names and wiki names often do not match exactly.
+Speedrun.com naming does not always match wiki naming.
 
-This folder contains dictionaries that say:
+This folder contains translation dictionaries used during matching, for example:
 
-> “When the API says *this*, the wiki means *that*.”
+- category name variants
+- variable label differences
+- platform / region wording
 
-They are used during matching so mappings stay readable and stable.
-
-Examples of what goes here:
-
-* Category name variants
-* Variable label differences
-* Region / platform wording differences
+These keep mappings readable and stable.
 
 ---
 
 ### `wikiterms/curations/`
 
-This folder is for **exceptions**.
+Curations handle exceptions.
 
-Use curations when:
+Use these when:
 
-* One game breaks otherwise global rules
-* A category is intentionally named differently on the wiki
-* The API is inconsistent for a specific title
+- a game breaks otherwise global rules
+- a category is intentionally named differently
+- the API behaves inconsistently for a specific title
 
-Curations override normal wiki terms and only apply where needed.
-
----
-
-### Other folders
-
-* `api/` – talks to speedrun.com and normalizes run data
-* `wiki/` – builds new wiki text and generates diffs
-* `sync.py` – main entry point and command‑line handling
+Curations override normal wiki terms and apply only where present.
 
 ---
 
-## Running the tool
+### Other directories
 
-This project is typically used in two phases:
-
-1. **Generate or update mapping files** (one-time or occasional)
-2. **Run the sync tool** to preview or apply updates
+- `api/` – speedrun.com API access and normalization
+- `wiki/` – wikitext generation and diffing
+- `sync.py` – main entry point and CLI handling
 
 ---
 
-### Generating mappings (helper script)
+## Typical usage
 
-This step helps you *create* mapping files by inspecting speedrun.com categories and laying out a starting structure.
+The project is usually used in two phases:
+
+1. Generate or update mapping files (occasional)
+2. Run the sync tool to preview or apply updates
+
+---
+
+## Generating mappings (helper script)
+
+This script inspects speedrun.com categories and produces a starting mapping file.
 
 ```bash
 python scripts/gen_mapping.py \
@@ -143,21 +140,8 @@ python scripts/gen_mapping.py \
   --all-categories
 ```
 
-What this does:
-
-* `--section "OoT"`
-  The name of the section as it already exists on the wiki page.
-
-* `--game "oot"`
-  The speedrun.com game slug to pull categories from.
-
-* `--out ./mappings/zeldawiki/ocarina.json`
-  Where the generated mapping file will be written.
-
-* `--all-categories`
-  Includes all categories found for the game, giving you a complete starting point to edit and refine.
-
-The output file is **not meant to be final**. You are expected to edit it by hand to match real wiki rows.
+This generates a **starting point only**.  
+The output is expected to be edited by hand to match real wiki rows.
 
 ---
 
@@ -170,33 +154,16 @@ PYTHONPATH=src python -m srwikisync.cli \
   --dry-run
 ```
 
-This is the safest mode and the default.
+This runs the full pipeline without saving anything.
 
-What each argument means:
+What happens:
 
-* `--config configs/zeldawiki.yaml`
-  Points to your main configuration file. This usually contains:
-
-  * wiki connection details
-  * bot username
-  * site-specific settings
-
-* `--mapping ./mappings/zeldawiki/ocarina.json`
-  Tells the tool exactly which mapping file to use. Only the pages and rows defined in this file will be touched.
-
-* `--dry-run`
-  Runs the full pipeline but **does not save anything**.
-
-What happens when you run this:
-
-* Runs are fetched from speedrun.com
-* Wiki terms and curations are applied
-* Rows defined in the mapping are updated
-* A readable diff is printed showing what *would* change
+- Runs are fetched
+- Wiki terms and curations are applied
+- Only mapped rows are updated
+- A readable diff is printed
 
 No wiki edits are made.
-
-Use this as often as you want.
 
 ---
 
@@ -209,26 +176,9 @@ PYTHONPATH=src python -m srwikisync.cli \
   --write
 ```
 
-This command uses the same inputs as a dry run, but actually applies the changes.
+Behavior is identical to `--dry-run`, except the page is saved once with the full update.
 
-Arguments explained:
-
-* `--config configs/zeldawiki.yaml`
-  Same config file as before. Nothing about your setup changes between dry-run and write.
-
-* `--mapping ./mappings/zeldawiki/ocarina.json`
-  The specific game / page mapping to apply.
-
-* `--write`
-  Enables saving the updated wiki text.
-
-What happens when you run this:
-
-* All changes are prepared in memory first
-* The page is saved once with the full update
-* No partial or incremental edits are made
-
-If saving fails, it is usually due to wiki-side restrictions (see CAPTCHA note below).
+If saving fails, it is usually due to wiki-side restrictions (see CAPTCHA note).
 
 ---
 
@@ -241,28 +191,13 @@ PYTHONPATH=src python -m srwikisync.cli \
   --emit output.txt
 ```
 
-This mode generates wiki text without touching the wiki.
+This renders updated wiki text to a file without touching the wiki.
 
-Arguments explained:
-
-* `--emit output.txt`
-  Writes the generated wiki text to the given file path.
-
-What happens when you run this:
-
-* Runs are fetched and mapped as usual
-* Updated wiki text is rendered
-* The result is written to `output.txt`
-
-Useful for:
-
-* Reviewing output
-* Manual posting
-* Debugging mappings
+Useful for review, debugging, or manual posting.
 
 ---
 
-## Running everything at once (`--all`)
+## Batch mode (`--all`)
 
 ```bash
 PYTHONPATH=src python -m srwikisync.cli \
@@ -271,18 +206,7 @@ PYTHONPATH=src python -m srwikisync.cli \
   --dry-run
 ```
 
-The `--all` flag tells the tool to ignore `--mapping` and instead:
-
-* Find **every `.json` file** in the mappings folder
-* Run each mapping one after another
-
-Arguments explained:
-
-* `--all`
-  Enables batch mode across all mapping files.
-
-* `--dry-run` / `--write` / `--emit`
-  Apply the chosen action to **every mapping**.
+The `--all` flag runs the chosen action across every mapping file.
 
 Examples:
 
@@ -290,75 +214,61 @@ Examples:
 --all --write
 ```
 
-Applies changes for all games to the wiki.
+Apply updates for all games.
 
 ```bash
 --all --emit out/
 ```
 
-Writes one output file per mapping into the `out/` directory.
-
-This is most useful when maintaining many games or doing routine updates.
+Write one output file per mapping.
 
 ---
 
-## CAPTCHA / ConfirmEdit warning
+## CAPTCHA / ConfirmEdit note
 
-Some wikis block automated edits using CAPTCHA (ConfirmEdit).
+Some wikis block automated edits via CAPTCHA.
 
-If this is enabled:
+If enabled:
 
-* `--write` will fail
-* `--dry-run` and `--emit` still work
+- `--write` will fail
+- `--dry-run` and `--emit` still work
 
-The fix is wiki‑side:
-
-* Ask an admin to exempt the bot account from ConfirmEdit
+The fix is wiki-side: exempt the bot account from ConfirmEdit.
 
 The tool does not attempt to bypass CAPTCHA.
 
 ---
 
-## Curations (advanced mapping control)
+## Curations (advanced)
 
-Curations let you handle edge cases where speedrun.com’s data model does not map cleanly to how the wiki presents categories.
-They are **optional**, per-game overrides and are only applied when a curation file exists.
+Curations handle cases where the speedrun.com data model doesn’t line up cleanly with wiki presentation.
 
-Curations live in:
+They are optional, per-game overrides and only apply when present.
+
+Location:
 
 ```
 mappings/zeldawiki/curation/
 ```
 
-Each file is named after the **mapping filename stem**.
-
-Example:
-```
-mappings/zeldawiki/hyrule_warriors_age_of_imprisonment.json
-→ mappings/zeldawiki/curation/hyrule_warriors_age_of_imprisonment.json
-```
-
-If no curation file exists for a mapping, default behaviour is used.
+Filename must match the mapping filename.
 
 ---
 
-### Existing curation rules (backwards compatible)
+### Supported rules
 
-- `contains`  
-  Substrings that exclude categories if matched.
+- `contains` – exclude categories by substring
+- `contains_exceptions` – allow specific exceptions
 
-- `contains_exceptions`  
-  Overrides for specific allowed cases.
-
-Legacy list-only curations are still supported and treated as a deny list.
+Legacy list-only curations are still supported.
 
 ---
 
-### New curation rules (label + query control)
+### Variable handling
 
 #### `label_vars_drop`
 
-Removes speedrun.com **variable IDs** from the displayed wiki label only.
+Drops variable IDs from displayed wiki labels.
 
 ```json
 {
@@ -370,9 +280,9 @@ Removes speedrun.com **variable IDs** from the displayed wiki label only.
 
 #### `query_vars_drop`
 
-Removes speedrun.com **variable IDs** from leaderboard API queries.
+Drops variable IDs from leaderboard API queries.
 
-This is required when a variable exists on speedrun.com but querying with it returns no runs.
+Required when querying with a variable returns no runs.
 
 ```json
 {
@@ -385,20 +295,21 @@ This is required when a variable exists on speedrun.com but querying with it ret
 
 ### Automatic de-duplication
 
-When dropped query variables cause multiple combinations to collapse into the same category,
-duplicate mapping entries are automatically skipped.
+If dropping query variables causes multiple mappings to collapse into the same category,
+duplicates are automatically skipped.
 
-Two entries are considered identical if they share:
+Entries are considered identical if they share:
+
 - section
-- wiki category label
+- wiki label
 - game
 - category ID
 - query variables
 
+---
+
 ## License
 
-Creative Commons Attribution–NonCommercial 4.0 International (CC BY‑NC 4.0)
+Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)
 
-Free for non‑commercial use, modification, and sharing.
-
----
+Free for non-commercial use, modification, and sharing.
